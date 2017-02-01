@@ -1,0 +1,237 @@
+/*
+Theme Name: Protótipo de tema do Instituto de Informática
+Author: Murilo Ferraz Franco
+Description: Tema baseado na padronização de sites da UFG
+Version: 0.0.1
+Tags: INF, UFG
+*/
+html {
+    font-family:Verdana, Arial, Helvetica, sans-serif !important;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+body {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+header#cabecalho-pagina {
+    /* Bloco azul ao lado das marcas */
+    /*background: linear-gradient(90deg, #f0f5f9 50%, #ffffff 50%);*/
+}
+header#cabecalho-pagina #grupo-cabecalho {
+    margin:auto;
+    height: 140px;
+    max-width:1000px;
+    background-color:#fff;
+    display:flex;
+}
+
+
+header#cabecalho-pagina #grupo-cabecalho  #id-inf {
+    width:200px;
+    height:140px;
+    float:left;
+    display:table;
+    background: #ddedf1;
+    text-align:right;
+}
+
+header#cabecalho-pagina #grupo-cabecalho  #id-inf a {
+    color:inherit;
+    text-decoration:inherit;
+}
+
+header#cabecalho-pagina  #grupo-cabecalho  #id-inf #texto-id-inf {
+    display:table-cell;
+    vertical-align:middle;
+    padding-right:16px;
+    line-height:160%;
+    font-family:Arial, Helvetica, sans-serif !important;
+    color:black;
+}
+
+header#cabecalho-pagina  #grupo-cabecalho #id-inf #sigla-inf {
+    font-size:300%;
+    margin:0;
+    padding:0;
+}
+
+header#cabecalho-pagina  #grupo-cabecalho  #id-inf #inf-completo {
+    font-size:60%;
+    margin:0;
+    padding:0;
+}
+
+
+
+header#cabecalho-pagina  #grupo-cabecalho  #id-ufg {
+    width: 200px;
+    height: 140px;
+    display:inline-block;
+}
+
+header#cabecalho-pagina  #grupo-cabecalho  #id-ufg img {
+    height: 140px;
+}
+
+header#cabecalho-pagina #grupo-busca {
+    float:right;
+    height:100px;
+    display:block;
+    
+}
+
+header#cabecalho-pagina #grupo-busca #grupo-form-busca {
+    width:140px;
+    color:#666;
+    padding:4px 0px 0px 0px;
+    height:32px;
+    overflow:hidden;
+}
+
+header#cabecalho-pagina #grupo-busca #grupo-form-busca form input.busca {
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 20px;
+    margin: 10px 0 0 0;
+    border: none;
+    background-color: #ccc;
+    text-indent: 5px;
+    font-size: 10px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:normal;
+    line-height:20px;
+    vertical-align:middle;
+}
+
+
+header#cabecalho-pagina #grupo-busca #grupo-form-busca form select.busca {
+    position: relative;
+    float: left;
+    width: 49%;
+    height: 20px;
+    margin: 10px 0 0 0;
+    border: none;
+    background-color: #ccc;
+    text-indent: 5px;
+    font-size: 10px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:normal;
+    line-height:30px;
+    vertical-align:middle;
+    border-radius:0;
+    display:inline-block
+    cursor:pointer;
+}
+
+header#cabecalho-pagina #grupo-busca #links-sistemas {
+    vertical-align:baseline;
+}
+
+header#cabecalho-pagina #grupo-busca #links-sistemas ul {
+    width:140px;
+    height:16px;
+    text-indent:5px;
+    position:relative;
+    float:left;
+    margin-top:19px;
+    overflow:hidden;
+    z-index:1000;
+    font-size:11px;
+    background: url("/assets/dropdown.png") no-repeat top right;
+    background-color: #eee;
+    list-style:none;
+}
+
+header#cabecalho-pagina #grupo-acessibilidade {
+    margin:16px 30px 0 0;
+    float:right;
+    display:block;
+}
+
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste {
+    clear:both;
+    max-width:1000px;
+    background-color:#fff;
+    color:#333;
+}
+
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade {
+    float:right;
+    border:1px solid #DFDFDF;
+    border-radius:2px;
+    background-color:#F1F1F1;
+    padding:5px !important;
+    font-weight:bold !important;
+    font-size:12px;
+}
+
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte {
+    font:inherit;
+    color:#333;    
+
+}
+
+#principal #conteudo {
+    width: 1000px;
+    margin:auto;
+}
+
+
+footer {
+    background-color:#4b73b3;
+    
+    /*background-color:#005CA1;*/
+    color:white;
+    margin:0;
+    padding:0;
+    border:0;
+    clear:both;
+}
+
+footer #grupo-rodape {
+    background-color:#7b9ccb;
+    /*background-color:#4b73b3;*/
+    
+    width:1000px;
+    display:block;
+    margin:auto;
+    
+    
+    
+    
+}
+
+footer #grupo-rodape p {
+    line-height:18px;
+    display:block;
+}
+
+footer #grupo-rodape .rodape-caixa {
+    width: 230px;
+    margin: 16px 5px 16px 5px;
+    vertical-align:top;
+    display:inline-block;
+    
+}
+
+footer #grupo-rodape .rodape-caixa-direita {
+    margin-right:16px;
+}
+footer #grupo-rodape .rodape-caixa-esquerda {
+    margin-left:16px;
+}
+
+footer #grupo-rodape #rodape-logo img {
+    width: 150px;
+}
+
+
+
+
