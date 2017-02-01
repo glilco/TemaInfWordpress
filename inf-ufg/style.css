@@ -28,17 +28,17 @@ header#cabecalho-pagina #grupo-cabecalho {
     height: 140px;
     max-width:1000px;
     background-color:#fff;
-    display:flex;
+    display:block;
 }
 
 
-header#cabecalho-pagina #grupo-cabecalho  #id-inf {
+header#cabecalho-pagina #grupo-cabecalho #id-inf {
     width:200px;
     height:140px;
-    float:left;
-    display:table;
+    display:block;
     background: #ddedf1;
     text-align:right;
+    float:left;
 }
 
 header#cabecalho-pagina #grupo-cabecalho  #id-inf a {
@@ -47,12 +47,12 @@ header#cabecalho-pagina #grupo-cabecalho  #id-inf a {
 }
 
 header#cabecalho-pagina  #grupo-cabecalho  #id-inf #texto-id-inf {
-    display:table-cell;
-    vertical-align:middle;
-    padding-right:16px;
+    display:block;
+    padding-right:5%;
     line-height:160%;
     font-family:Arial, Helvetica, sans-serif !important;
     color:black;
+    margin: 25% 0 25% 0;
 }
 
 header#cabecalho-pagina  #grupo-cabecalho #id-inf #sigla-inf {
@@ -72,18 +72,118 @@ header#cabecalho-pagina  #grupo-cabecalho  #id-inf #inf-completo {
 header#cabecalho-pagina  #grupo-cabecalho  #id-ufg {
     width: 200px;
     height: 140px;
-    display:inline-block;
+    display: block;
+    float: left;
 }
 
 header#cabecalho-pagina  #grupo-cabecalho  #id-ufg img {
     height: 140px;
 }
 
+header#cabecalho-pagina #grupo-centro {
+    width:35%;
+    display:block;
+    float:right;
+    margin-right:3%;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade {
+    margin:16px 30px 0 0;
+    display:block;
+    width:100%;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste {
+    clear:both;
+    max-width:1000px;
+    background-color:#fff;
+    color:#333;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade {
+    float:right;
+    border:1px solid #DFDFDF;
+    border-radius:2px;
+    background-color:#F1F1F1;
+    padding: 1px 5px 1px 5px;
+    font-weight:bold !important;
+    font-size:12px;
+    
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte {
+    color:black;    
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-weight:900;
+    font-style:normal;
+    font-size:medium;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte a {
+    font:inherit;
+    text-decoration:inherit;
+    color:inherit;
+    margin:0 1px 0 1px;
+}
+
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor {
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor a {
+    font:inherit;
+    text-decoration:inherit;
+    color:inherit;
+    padding:1px 3px 1px 3px;
+    border: 1px solid #DFDFDF;
+    display:inline-block;
+    color: #484848;
+    margin:1px;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_normal {
+    background-color:#fff;
+    color:#484848;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_blue {
+    background-color:#9FCFFF;
+    color:#000066;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_black {
+    background-color:#000;
+    color:#FFFF00;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_yellow {
+    background-color:#DFD179;
+    color:#020167;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-midias-sociais {
+    width:100%;
+    display:block;
+    height:40px;
+    margin:25% 0 0 0;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-midias-sociais .icone-midia {
+    display:block;
+    float:right;
+    width:8%;
+    margin: 0 2% 0 2%;
+}
+
+header#cabecalho-pagina #grupo-centro #grupo-midias-sociais .icone-midia img {
+    width: 100%;
+    height:auto;
+}
+
 header#cabecalho-pagina #grupo-busca {
     float:right;
     height:100px;
     display:block;
-    
 }
 
 header#cabecalho-pagina #grupo-busca #grupo-form-busca {
@@ -149,34 +249,7 @@ header#cabecalho-pagina #grupo-busca #links-sistemas ul {
     list-style:none;
 }
 
-header#cabecalho-pagina #grupo-acessibilidade {
-    margin:16px 30px 0 0;
-    float:right;
-    display:block;
-}
 
-header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste {
-    clear:both;
-    max-width:1000px;
-    background-color:#fff;
-    color:#333;
-}
-
-header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade {
-    float:right;
-    border:1px solid #DFDFDF;
-    border-radius:2px;
-    background-color:#F1F1F1;
-    padding:5px !important;
-    font-weight:bold !important;
-    font-size:12px;
-}
-
-header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte {
-    font:inherit;
-    color:#333;    
-
-}
 
 #principal #conteudo {
     width: 1000px;
@@ -219,6 +292,10 @@ footer #grupo-rodape .rodape-caixa {
     vertical-align:top;
     display:inline-block;
     
+}
+
+footer #grupo-rodape .rodape-caixa p {
+    margin: 0 0 1em;
 }
 
 footer #grupo-rodape .rodape-caixa-direita {

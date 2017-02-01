@@ -5,6 +5,10 @@
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42991"> 
+
+    <!-- RYBENA HEAD -->
+<script async type="text/javascript" src="/up/1/o/rybenaDOM.js"></script>
+<!-- END RYBENA HEAD -->
 </head>
 <body>
 <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
@@ -29,34 +33,9 @@
                 </a>
             </div>
             
-            <div class="" id="grupo-acessibilidade">
-                <nav class="" id="acessibilidade-fonte-constraste">
-                    <span class="" id="acessibilidade">
-                        <span class="" id='acessibilidade-fonte'>
-                            <a onclick="font_size_change(&quot;minus&quot;)" title=" Diminuir o tamanho da fonte " href="#">
-                                <i class="fa fa-minus">
-                                </i>
-                            </a>
-                            <a onclick="font_size_original()" title=" Tamanho padrão da fonte " href="#">
-                                <i class="fa fa-font">
-                                </i>
-                            </a>
-                            <a onclick="font_size_change(&quot;plus&quot;)" title=" Aumentar o tamanho da fonte " href="#">
-                                <i class="fa fa-plus">
-                                </i>
-                            </a>
-                        </span>
-                        <span class="" id="acessibilidade-cor">
-                            <a class="contrast_normal" href="#">C</a><a class="contrast_blue" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_blue-07f28312874727e9d50b72e0bd43a939.css" href="#">C</a><a class="contrast_black" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_black-5b8f71320d63f67eb4050c3e55789fa7.css" href="#">C</a><a class="contrast_yellow" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_yellow-6ebde06f6ce5a3e10ba7173c2a08c984.css" href="#">C</a>
-                        </span>
-                    </span>
-                </nav>
-            </div>
-        
-        
-            <div class="" id="grupo-busca">
-                <div class="" id="grupo-form-busca">
-                    <form class="" action="/news" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <div id="grupo-busca">
+                <div id="grupo-form-busca">
+                    <form action="/news" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
                         <input class="busca" type="text" name="search" id="search" placeholder=" Pesquisar " />
                         <select class="busca" id="options" onchange="search_action()">
                             <option value="/news"  >Notícias</option>
@@ -64,7 +43,7 @@
                         </select>
                     </form>
                 </div>
-                <div id="links-sistemas" class="">
+                <!--<div id="links-sistemas" class="">
                     <ul>
                       <li>Sistemas UFG</li>
                       <li><a href="http://ufgnet.ufg.br">Portal UFGNet</a></li>
@@ -73,9 +52,71 @@
                       <li><a href="http://sistemas.ufg.br/CONCURSOS_WEB/">Concursos</a></li>
                       <li><a href="http://portalsig.ufg.br">Portal SIG</a></li>
                     </ul>
-                </div>
+                </div>!-->
             </div>
             
+            <div id="grupo-centro">
+                <div class="" id="grupo-acessibilidade">
+                    
+                    <nav class="" id="acessibilidade-fonte-constraste">
+                        <span id="acessibilidade" class="">
+                            <span id="acessibilidade-fonte" class=''><a onclick="font_size_change(&quot;minus&quot;)" title=" Diminuir o tamanho da fonte " href="#"><i class="fa fa-minus">-</i></a><a onclick="font_size_original()" title=" Tamanho padrão da fonte " href="#"><i class="fa fa-font">A</i></a><a onclick="font_size_change(&quot;plus&quot;)" title=" Aumentar o tamanho da fonte " href="#"><i class="fa fa-plus">+</i></a></span>
+                            <span id="acessibilidade-cor" class="">
+                                <a class="contrast_normal" href="#">C</a><a class="contrast_blue" data-url="/assets/shared/contrast_blue-07f28312874727e9d50b72e0bd43a939.css" href="#">C</a><a class="contrast_black" data-url="/assets/shared/contrast_black-5b8f71320d63f67eb4050c3e55789fa7.css" href="#">C</a><a class="contrast_yellow" data-url="/assets/shared/contrast_yellow-6ebde06f6ce5a3e10ba7173c2a08c984.css" href="#">C</a>
+                            </span>
+                        </span>
+                    </nav>
+
+
+
+                    
+                    
+                </div>
+                
+                <div id="grupo-midias-sociais">
+                    <div id="icone-facebook" class="icone-midia">
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/facebook.png'; ?> "/>
+                        </a>
+                    </div>
+                    <div id="icone-instagram" class="icone-midia">
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/instagram.png'; ?> "/>
+                        </a>
+                    </div>
+                    <div id="icone-radio" class="icone-midia">
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/radio.png'; ?> "/>
+                        </a>
+                    </div>
+                    <div id="icone-twitter" class="icone-midia">
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/twitter.png'; ?> "/>
+                        </a>
+                    </div>
+                    <div id="icone-flickr" class="icone-midia">
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/flickr.png'; ?> "/>
+                        </a>
+                    </div>
+                    <div id="icone-picasa" class="icone-midia">
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/picasa.png'; ?> "/>
+                        </a>
+                    </div>
+                    <div id="icone-tv" class="icone-midia">
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/tv.png'; ?> "/>
+                        </a>
+                    </div>
+                    <div id="icone-youtube" class="icone-midia">
+                        <a href="#">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/youtube.png'; ?> "/>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
         
         </div>
 
