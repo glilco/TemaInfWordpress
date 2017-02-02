@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 <head>
-<title>Tema do Instituto de Informática</title>
-	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-<meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42991"> 
-
-    <!-- RYBENA HEAD -->
-<script async type="text/javascript" src="/up/1/o/rybenaDOM.js"></script>
-<!-- END RYBENA HEAD -->
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<?php endif; ?>
+    <title>Tema do Instituto de Informática</title>
+	<!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <meta property="creator.productor" content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/42991"> 
 </head>
 <body>
 <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
@@ -18,7 +23,7 @@
 	</ul>
 </div>
     <header id="cabecalho-pagina">
-        <div id="grupo-cabecalho">
+        <div id="grupo-cabecalho" class="total-centro">
             <div id="id-inf">
                 <div id="texto-id-inf">
                     <a href="/">
@@ -35,24 +40,14 @@
             
             <div id="grupo-busca">
                 <div id="grupo-form-busca">
-                    <form action="/news" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-                        <input class="busca" type="text" name="search" id="search" placeholder=" Pesquisar " />
-                        <select class="busca" id="options" onchange="search_action()">
-                            <option value="/news"  >Notícias</option>
-                            <option value="/pages" >Páginas</option>
-                        </select>
+                
+                    <form action="/news" accept-charset="UTF-8" method="get" role="search" action="http://localhost/">
+                        <fieldset id="cabecalho-fieldset-busca" class="fieldset-form">
+                            <input class="busca campo-busca" type="search" name="s" id="search" placeholder="Buscar no site" />
+                            <input class="busca botao-busca" id="cabecalho-busca-botao" type="submit" value="Buscar no site" />
+                        </fieldset>
                     </form>
                 </div>
-                <!--<div id="links-sistemas" class="">
-                    <ul>
-                      <li>Sistemas UFG</li>
-                      <li><a href="http://ufgnet.ufg.br">Portal UFGNet</a></li>
-                      <li><a href="http://mail.ufg.br">Webmail</a></li>
-                      <li><a href="https://sigaa.sistemas.ufg.br">Matrícula</a></li>
-                      <li><a href="http://sistemas.ufg.br/CONCURSOS_WEB/">Concursos</a></li>
-                      <li><a href="http://portalsig.ufg.br">Portal SIG</a></li>
-                    </ul>
-                </div>!-->
             </div>
             
             <div id="grupo-centro">
@@ -62,15 +57,10 @@
                         <span id="acessibilidade" class="">
                             <span id="acessibilidade-fonte" class=''><a onclick="font_size_change(&quot;minus&quot;)" title=" Diminuir o tamanho da fonte " href="#"><i class="fa fa-minus">-</i></a><a onclick="font_size_original()" title=" Tamanho padrão da fonte " href="#"><i class="fa fa-font">A</i></a><a onclick="font_size_change(&quot;plus&quot;)" title=" Aumentar o tamanho da fonte " href="#"><i class="fa fa-plus">+</i></a></span>
                             <span id="acessibilidade-cor" class="">
-                                <a class="contrast_normal" href="#">C</a><a class="contrast_blue" data-url="/assets/shared/contrast_blue-07f28312874727e9d50b72e0bd43a939.css" href="#">C</a><a class="contrast_black" data-url="/assets/shared/contrast_black-5b8f71320d63f67eb4050c3e55789fa7.css" href="#">C</a><a class="contrast_yellow" data-url="/assets/shared/contrast_yellow-6ebde06f6ce5a3e10ba7173c2a08c984.css" href="#">C</a>
+                                <a class="contrast_normal" href="#">C</a><a class="contrast_blue" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_blue-07f28312874727e9d50b72e0bd43a939.css" href="#">C</a><a class="contrast_black" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_black-5b8f71320d63f67eb4050c3e55789fa7.css" href="#">C</a><a class="contrast_yellow" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_yellow-6ebde06f6ce5a3e10ba7173c2a08c984.css" href="#">C</a>
                             </span>
                         </span>
                     </nav>
-
-
-
-                    
-                    
                 </div>
                 
                 <div id="grupo-midias-sociais">
@@ -117,8 +107,22 @@
                     
                 </div>
             </div>
-        
+            <nav id="nav-menu-cabecalho" class="clear">
+                <menu id="menu-cabecalho" class="menu">
+                    <li><a href="#">O Instituto de Informática</a>
+                        <!--<menu id="submenu-cabecalho1" class="submenu">
+                            <li><a href="#"></a>Espaço fisico</li>
+                            <li><a href="#"></a>Espaço fisico2</li>
+                            <li><a href="#"></a>Espaço fisico3</li>
+                            <li><a href="#"></a>Espaço fisico4</li>
+                        </menu>!-->
+                    </li>
+                    <li><a href="#">Graduação</a></li>
+                    <li><a href="#">Pós-Graduação</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Pessoal</a></li>
+                </menu>
+            </nav>
+            
         </div>
-
-        
     </header>

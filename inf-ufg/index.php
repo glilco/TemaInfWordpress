@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<section id="principal">
-    <div id="conteudo">
+<section id="principal" class="clear ">
+    <div id="conteudo" class="total-centro">
         <h1>Área principal</h1>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <article class="post-article">

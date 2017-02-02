@@ -1,24 +1,34 @@
-            <footer>
-                <div id="grupo-rodape">
-                    <div id="rodape-logo" class="rodape-caixa rodape-caixa-esquerda">
-                        <a href="/"><img src="<?php echo get_template_directory_uri() . '/imagens/INFVertical-white.png'; ?> " /></a>
-                    </div>
-                    <div id="rodape-address" class="rodape-caixa">
-                        <p><strong>INF - Instituto de Informática</strong></p>
-                        <p>Alameda Palmeiras, Quadra D<br />
-                        Campus Samambaia - UFG<br />
-                        CEP 74690-900<br />
-                        Goiânia - Goiás - Brasil<br />
-                    </div>
-                    <div id="rodape-contact" class="rodape-caixa">
-                        Fone: (62) 3521-1181
-                        Fax: (62) 3521-1182
+            <footer class="clear">
+                <nav id="rodape-nav-menu-inferior" class="clear total-centro">
+                    <menu id="rodape-menu-inferior">
+                        <li><a href="">Fale conosco</a></li>
+                        <li><a href="">Dúvidas frequentes</a></li>
+                        <li><a href="">Webmail</a></li>
+                        <li><a href="">Telefones</a></li>
+                    </menu>
+                </nav>
+                <div id="rodape-cheio" class="clear">
+                    <div id="grupo-rodape" class="total-centro">
+                        <div id="rodape-logo" class="rodape-caixa rodape-caixa-esquerda rodape-imagem">
+                            <a href="/"><img src="<?php echo get_template_directory_uri() . '/imagens/INFVertical-white.png'; ?> " /></a>
+                        </div>
+                        <div id="rodape-address" class="rodape-caixa">
+                            <p><strong>INF - Instituto de Informática</strong></p>
+                            <p>Alameda Palmeiras, Quadra D<br />
+                            Campus Samambaia - UFG<br />
+                            CEP 74690-900<br />
+                            Goiânia - Goiás - Brasil<br />
+                        </div>
+                        <div id="rodape-contact" class="rodape-caixa">
+                            <p>Fone: (62) 3521-1181</p>
+                            <p>Fax: (62) 3521-1182</p>
 
-                    </div>
-                    <div id="rodape-info" class="rodape-caixa rodape-caixa-direita">
-                        <a href="http://www.sic.ufg.br/">
-                        <img src="<?php echo get_template_directory_uri() . '/imagens/icone-acesso-a-informacao.svg'; ?> "/>
-                    </a>
+                        </div>
+                        <div id="rodape-info" class="rodape-caixa rodape-caixa-direita rodape-imagem">
+                            <a href="http://www.sic.ufg.br/">
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/icone-acesso-a-informacao.svg'; ?> "/>
+                        </a>
+                        </div>
                     </div>
                 </div>
 
@@ -27,7 +37,6 @@
 
         <!--<div id="rodape-brasil"></div> !-->
         <script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
-    
     
     
     
