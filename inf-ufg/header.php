@@ -125,4 +125,10 @@
             </nav>
             
         </div>
+        
+        <div id="cabecalho-carrossel" class="clear">
+            <div id="cabecalho-carrossel-corpo" class="total-centro">
+                <img src="<?php echo get_template_directory_uri() . '/imagens/INF.jpg'; ?> " />
+            </div>
+        </div>
     </header>

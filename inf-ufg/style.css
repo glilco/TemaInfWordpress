@@ -317,7 +317,7 @@ header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho .menu {
     margin:0;
     padding:0;
     border:0;
-    color:#666;
+    color:#333;
 }
 
 header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu {
@@ -363,6 +363,18 @@ header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu  .submenu
     
 }
 
+
+/***********************************************************
+ * CABEÇALHO: CARROSSEL
+*************************************************************/
+
+#cabecalho-carrossel {
+    display:block;
+    width:100%;
+    background-color:#DFDFDF;
+    float:left;
+    max-height: 230px !important;
+}
 
 /***********************************************************
  * PAGINA PRINCIPAL
