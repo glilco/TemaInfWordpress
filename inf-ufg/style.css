@@ -86,36 +86,36 @@ header#cabecalho-pagina #grupo-cabecalho {
 }
 
 
-header#cabecalho-pagina #grupo-cabecalho #id-inf {
+header#cabecalho-pagina #id-inf {
     width:200px;
     height:140px;
     display:block;
     background: #ddedf1;
-    text-align:right;
+    text-align:center;
     float:left;
 }
 
-header#cabecalho-pagina #grupo-cabecalho  #id-inf a {
+header#cabecalho-pagina #id-inf a {
     color:inherit;
     text-decoration:inherit;
 }
 
-header#cabecalho-pagina  #grupo-cabecalho  #id-inf #texto-id-inf {
+header#cabecalho-pagina #id-inf #texto-id-inf {
     display:block;
-    padding-right:5%;
+    /*padding-right:5%;*/
     line-height:160%;
     font-family:Arial, Helvetica, sans-serif !important;
     color:black;
     margin: 25% 0 25% 0;
 }
 
-header#cabecalho-pagina  #grupo-cabecalho #id-inf #sigla-inf {
-    font-size:300%;
+header#cabecalho-pagina #id-inf #sigla-inf {
+    font-size:260%;
     margin:0;
     padding:0;
 }
 
-header#cabecalho-pagina  #grupo-cabecalho  #id-inf #inf-completo {
+header#cabecalho-pagina #id-inf #inf-completo {
     font-size:60%;
     margin:0;
     padding:0;
@@ -123,15 +123,15 @@ header#cabecalho-pagina  #grupo-cabecalho  #id-inf #inf-completo {
 
 
 
-header#cabecalho-pagina  #grupo-cabecalho  #id-ufg {
+header#cabecalho-pagina #id-ufg {
     width: 200px;
     height: 140px;
     display: block;
     float: left;
 }
 
-header#cabecalho-pagina  #grupo-cabecalho  #id-ufg img {
-    width: 100%
+header#cabecalho-pagina #id-ufg img {
+    width: 100%;
     height: auto;
     
 }
@@ -154,19 +154,19 @@ header#cabecalho-pagina #grupo-centro {
 
 
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade {
+header#cabecalho-pagina #grupo-acessibilidade {
     margin:10px 0 0 0;
     display:block;
     width:100%;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste {
     clear:both;
     background-color:#fff;
     color:#333;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade {
     float:right;
     border:1px solid #DFDFDF;
     border-radius:2px;
@@ -177,15 +177,15 @@ header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #ac
     
 }
 
-header#cabecalho-pagina #grupo-cabecalho  #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte {
-    color:black;    
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte {
+    color:black;
     font-family:Arial, Helvetica, sans-serif !important;
     font-weight:900;
     font-style:normal;
     font-size:medium;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte a {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte a {
     font:inherit;
     text-decoration:inherit;
     color:inherit;
@@ -193,10 +193,10 @@ header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #ac
 }
 
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor {
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor a {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor a {
     font:inherit;
     text-decoration:inherit;
     color:inherit;
@@ -207,48 +207,48 @@ header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #ac
     margin:1px;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_normal {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_normal {
     background-color:#fff;
     color:#484848;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_blue {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_blue {
     background-color:#9FCFFF;
     color:#000066;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_black {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_black {
     background-color:#000;
     color:#FFFF00;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_yellow {
+header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-cor .contrast_yellow {
     background-color:#DFD179;
     color:#020167;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-midias-sociais {
+
+
+/***********************************************************
+ * CABEÇALHO: MIDIAS SOCIAIS
+*************************************************************/
+
+header#cabecalho-pagina #grupo-midias-sociais {
     width:100%;
     display:block;
     height:40px;
     margin:25% 0 0 0;
 }
 
-/***********************************************************
- * CABEÇALHO: MIDIAS SOCIAIS
-*************************************************************/
-
-
-
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-midias-sociais .icone-midia {
+header#cabecalho-pagina #grupo-midias-sociais .icone-midia {
     display:block;
     float:right;
     width:7%;
     margin: 0 2% 0 2%;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-midias-sociais .icone-midia img {
-    width: 100%;
+header#cabecalho-pagina #grupo-midias-sociais .icone-midia img {
+    width:100%;
     height:auto;
 }
 
@@ -257,7 +257,7 @@ header#cabecalho-pagina #grupo-cabecalho #grupo-centro #grupo-midias-sociais .ic
 *************************************************************/
 
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-busca {
+header#cabecalho-pagina #grupo-busca {
     float:right;
     display:block;
     width:170px;
@@ -267,7 +267,7 @@ header#cabecalho-pagina #grupo-cabecalho #grupo-busca {
     white-space: nowrap;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-busca #grupo-form-busca {
+header#cabecalho-pagina #grupo-busca #grupo-form-busca {
     border:1px solid #4b73b3;
     float:right;
     clear: right !important;
@@ -280,7 +280,7 @@ header#cabecalho-pagina #grupo-cabecalho #grupo-busca #grupo-form-busca {
     
 }
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-busca #grupo-form-busca form input.busca {
+header#cabecalho-pagina #grupo-busca #grupo-form-busca form input.busca {
     border:none;
     margin:0;
     padding:0;
@@ -288,14 +288,14 @@ header#cabecalho-pagina #grupo-cabecalho #grupo-busca #grupo-form-busca form inp
 }
 
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-busca #grupo-form-busca form input.campo-busca {
+header#cabecalho-pagina #grupo-busca #grupo-form-busca form input.campo-busca {
     width:130px;
     font-size:1.1em;
     padding: 0 0.2em;
 }
 
 
-header#cabecalho-pagina #grupo-cabecalho #grupo-busca #grupo-form-busca form input.botao-busca {
+header#cabecalho-pagina #grupo-busca #grupo-form-busca form input.botao-busca {
     background:transparent;
     background-image: url("./imagens/busca.png");
     background-repeat:no-repeat;
@@ -312,7 +312,7 @@ header#cabecalho-pagina #grupo-cabecalho #grupo-busca #grupo-form-busca form inp
 *************************************************************/
 
 
-header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho .menu {
+header#cabecalho-pagina #nav-menu-cabecalho .menu {
     display:block;
     margin:0;
     padding:0;
@@ -320,13 +320,13 @@ header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho .menu {
     color:#333;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu {
+header#cabecalho-pagina #nav-menu-cabecalho menu.menu {
     margin:0;
     padding:0;
     border:0;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu > li  {
+header#cabecalho-pagina #nav-menu-cabecalho menu.menu > li {
     display:table-cell;
     border-bottom:3px solid #689eca;
     line-height:25px;
@@ -334,19 +334,19 @@ header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu > li  {
     position:relative;
     
     font-size:12px;
-    padding:    5px 20px 2px 15px;
+    padding:5px 20px 2px 15px;
     font-weight:normal;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu > li > a  {
+header#cabecalho-pagina #nav-menu-cabecalho menu.menu > li > a {
     font:inherit;
     text-decoration:inherit;
     color:inherit;
 }
 
-header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu > li:hover,
-header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu > li:focus,
-header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu  .submenu {
+header#cabecalho-pagina #nav-menu-cabecalho menu.menu > li:hover,
+header#cabecalho-pagina #nav-menu-cabecalho menu.menu > li:focus,
+header#cabecalho-pagina #nav-menu-cabecalho menu.menu .submenu {
     background-color:#689eca;
     color:white;
     display:block;
@@ -376,13 +376,132 @@ header#cabecalho-pagina #grupo-cabecalho #nav-menu-cabecalho menu.menu  .submenu
     max-height: 230px !important;
 }
 
+#cabecalho-carrossel img {
+    width:100%;
+    height:auto;
+}
+
 /***********************************************************
  * PAGINA PRINCIPAL
 *************************************************************/
 
 #principal #conteudo {
     min-height:300px;
+    
+    padding-top:1.5em;
 }
+
+/***********************************************************
+ * PAGINA PRINCIPAL: MENU LATERAL
+*************************************************************/
+
+
+#menu-lateral {
+    width:200px;
+    float:left;
+}
+
+#menu-lateral .menu-lateral-topo {
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+#menu-lateral .menu-lateral-titulo {
+    background-color: #ddedf1;
+    display:block;
+    padding: 5px 5px 1.2em 15px;
+    border-top: 3px solid #689eca;
+}
+
+#menu-lateral .menu-lateral-titulo a {
+    font-size: inherit;
+    text-decoration: none;
+    color: #2576b2;
+    font-weight: bold;
+    display:block;
+    width:100%;
+}
+
+#menu-lateral .menu-lateral-sub {
+    border: 0;
+    padding: 0;
+    margin: 0 0 1.5em 0;
+    list-style: none;
+    display: block;
+}
+
+
+#menu-lateral .menu-lateral-subitem {
+    padding: 3px 3px 3px 30px;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+#menu-lateral .menu-lateral-subitem a {
+    font: inherit;
+    color: #666;
+    text-decoration: none;
+    display:block;
+}
+
+#menu-lateral .menu-lateral-subitem:hover,
+#menu-lateral .menu-lateral-subitem:focus {
+    background-color: #dfdfdf;
+}
+
+/***********************************************************
+ * PRINCIPAL: AREA CONTEUDO
+*************************************************************/
+
+#conteudo #area-conteudo {
+    max-width: 800px;
+    float:left;
+    display:block;
+}
+
+#area-conteudo .bloco-conteudo {
+    max-width: 740px;
+    float:left;
+    display:block;
+}
+
+.bloco-conteudo > header {
+    display:block;
+}
+
+.bloco-conteudo > header .bloco-titulo {
+    border-bottom: 3px solid #689eca;
+    display:block;
+    float:left;
+    font-weight:bold;
+}
+
+.bloco-conteudo > header .bloco-ver-todas {
+    display:block;
+    float:right;
+    border-bottom: 3px solid #689eca;
+}
+
+.bloco-conteudo > header .bloco-ver-todas a {
+    font:inherit;
+    text-decoration:inherit;
+    color:inherit;
+}
+
+.bloco-conteudo .caixa-conteudo {
+    width: 250px;
+    height:150px;
+    display: block;
+    float:left;
+}
+
+.bloco-conteudo .caixa-conteudo header {
+    font-weight:bold;
+}
+
+.bloco-conteudo .caixa-texto .texto-conteudo {
+}
+
 
 /***********************************************************
  * RODAPE
