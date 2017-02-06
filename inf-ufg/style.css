@@ -136,6 +136,24 @@ header#cabecalho-pagina #id-ufg img {
     
 }
 
+@media (max-width : 320px) {
+    header#cabecalho-pagina #id-inf {
+        width:100%;
+        height:100px;
+        
+    }
+    
+    header#cabecalho-pagina #id-inf #texto-id-inf {
+        margin:10% 0 10% 0;
+    }
+    
+    header#cabecalho-pagina #id-ufg {
+        margin:0 15% 0 15%;
+        float:left;
+        clear:both;
+    }
+}
+
 /***********************************************************
  * CABEÇALHO: CENTRO
 *************************************************************/
@@ -146,6 +164,13 @@ header#cabecalho-pagina #grupo-centro {
     display:block;
     float:right;
     margin-right:3%;
+}
+
+
+@media (max-width : 320px) {
+    header#cabecalho-pagina #grupo-centro {
+        float:left;
+    }
 }
 
 /***********************************************************
@@ -175,6 +200,13 @@ header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #
     font-weight:bold !important;
     font-size:12px;
     
+}
+
+@media (max-width : 320px) {
+    header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade {
+        float:left;
+        margin: 0 0 2em 3em;
+    }
 }
 
 header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade #acessibilidade-fonte {
@@ -252,6 +284,18 @@ header#cabecalho-pagina #grupo-midias-sociais .icone-midia img {
     height:auto;
 }
 
+@media (max-width : 320px) {
+    header#cabecalho-pagina #grupo-midias-sociais {
+        margin:3em 0 0 0.5em;
+        clear:both;
+    
+    }
+    header#cabecalho-pagina #grupo-midias-sociais .icone-midia {
+        float:left;
+        margin: 0 0.5% 0 0.5%;
+    }
+}
+
 /***********************************************************
  * CABEÇALHO: BUSCA
 *************************************************************/
@@ -278,6 +322,19 @@ header#cabecalho-pagina #grupo-busca #grupo-form-busca {
     text-align:right;
     font-size: 70%;
     
+}
+
+@media (max-width : 320px) {
+    header#cabecalho-pagina #grupo-busca {
+        float:left;
+        clear:both;
+        margin:0 0 0em 2em;
+    }
+
+    header#cabecalho-pagina #grupo-busca #grupo-form-busca {
+        float:left;
+        margin: 0 0 0 0;
+    }
 }
 
 header#cabecalho-pagina #grupo-busca #grupo-form-busca form input.busca {
@@ -410,7 +467,7 @@ header#cabecalho-pagina #nav-menu-cabecalho menu.menu .submenu {
 #menu-lateral .menu-lateral-titulo {
     background-color: #ddedf1;
     display:block;
-    padding: 5px 5px 1.2em 15px;
+    padding: 5px 5px 0 15px;
     border-top: 3px solid #689eca;
 }
 
@@ -421,6 +478,7 @@ header#cabecalho-pagina #nav-menu-cabecalho menu.menu .submenu {
     font-weight: bold;
     display:block;
     width:100%;
+    padding-bottom:1.2em;
 }
 
 #menu-lateral .menu-lateral-sub {
@@ -465,24 +523,37 @@ header#cabecalho-pagina #nav-menu-cabecalho menu.menu .submenu {
     display:block;
 }
 
-.bloco-conteudo > header {
+.bloco-conteudo > .cabecalho-bloco {
     display:block;
+    border-bottom: 1px solid #dfdfdf;
+    height:1.2em;
 }
 
-.bloco-conteudo > header .bloco-titulo {
+.bloco-conteudo > .cabecalho-bloco .bloco-titulo {
     border-bottom: 3px solid #689eca;
     display:block;
     float:left;
     font-weight:bold;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
 }
 
-.bloco-conteudo > header .bloco-ver-todas {
+.bloco-conteudo > .cabecalho-bloco a {
+    font:inherit;
+    text-decoration:inherit;
+    color:inherit;
+}
+
+.bloco-conteudo > .bloco-ver-todas {
     display:block;
     float:right;
     border-bottom: 3px solid #689eca;
+    font-size:small;
 }
 
-.bloco-conteudo > header .bloco-ver-todas a {
+
+.bloco-conteudo > .bloco-ver-todas a {
     font:inherit;
     text-decoration:inherit;
     color:inherit;

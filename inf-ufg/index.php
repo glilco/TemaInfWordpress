@@ -50,7 +50,10 @@
     
         <div id="area-conteudo" class="">
             <section class="bloco-conteudo">
-                <header class="cabecalho-bloco"><div class="bloco-titulo">Um bloco de conteúdo</div><div class="bloco-ver-todas"><a href="#">Ver todas</a></div></header>
+                <div class="cabecalho-bloco">
+                    <a href="#"><h1 class="bloco-titulo">Um bloco de conteúdo</h1></a>
+                </div>
+                <div class="clear"></div>
                 <div class="caixa-conteudo-texto caixa-conteudo">
                     <header><div class="titulo-caixa">Titulo da caixa</div></header>
                     <div class="texto-conteudo">
@@ -63,6 +66,7 @@
                         Um conteúdo dentro da caixa de conteudo
                     </div>
                 </div>
+                <div class="bloco-ver-todas"><a href="#">Ver todas</a></div>
             </section>
             
         </div>
