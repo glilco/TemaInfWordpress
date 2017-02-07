@@ -36,17 +36,11 @@
         
 
     
+    <script defer="defer" async="async" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
     
     <script src="//assets.cercomp.ufg.br/assets/base-94a3b05eb04664ac9e1c460f312e2456.js"></script>
-    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <script src="//assets.cercomp.ufg.br/assets/front_news-d34b42aa5dc71e1ced9f15b24f6a0f26.js"></script>
-    <script defer="defer" async="async" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
-    <script src="//assets.cercomp.ufg.br/assets/search_action-a53544b12926cc8130846bb5014f3e54.js"></script>
     <script src="//assets.cercomp.ufg.br/assets/show-d91f8a0d4ad1e6879c19633ad1ba29e1.js"></script>
     <script src="//assets.cercomp.ufg.br/assets/changeContrast-985613baf8193854ea9ef77ae30f1aed.js"></script>
-    <script src="//assets.cercomp.ufg.br/assets/jquery.cookie-d5caf2bfb01b53c94bb731cccf7140bf.js"></script>
-    <script src="//assets.cercomp.ufg.br/assets/banner_list-a649285516ff01f491c85786cb98da5b.js">
-    </script><script src="//assets.cercomp.ufg.br/assets/banner_list_jquery.flexslider-645a2069cb4f572e6011b457e01a03f6.js"></script>
   
     
     

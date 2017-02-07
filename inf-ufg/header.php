@@ -9,7 +9,7 @@
 	<?php endif; ?>
     <title>Tema do Instituto de Informática</title>
 	<!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
     
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
