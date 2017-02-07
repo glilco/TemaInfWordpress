@@ -108,20 +108,48 @@
                 </div>
             </div>
             <nav id="nav-menu-cabecalho" class="clear">
-                <menu id="menu-cabecalho" class="menu">
+                <ul id="menu-cabecalho" class="menu">
                     <li><a href="#">O Instituto de Informática</a>
-                        <!--<menu id="submenu-cabecalho1" class="submenu">
-                            <li><a href="#"></a>Espaço fisico</li>
-                            <li><a href="#"></a>Espaço fisico2</li>
-                            <li><a href="#"></a>Espaço fisico3</li>
-                            <li><a href="#"></a>Espaço fisico4</li>
-                        </menu>!-->
+                        <ul id="submenu-cabecalho1" class="submenu">
+                            <li><a href="#">Espaço fisico</a></li>
+                            <li><a href="#">Espaço fisico2</a></li>
+                            <li><a href="#">Espaço fisico3</a></li>
+                            <li><a href="#">Espaço fisico4</a></li>
+                        </ul>
                     </li>
-                    <li><a href="#">Graduação</a></li>
-                    <li><a href="#">Pós-Graduação</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Pessoal</a></li>
-                </menu>
+                    <li><a href="#">Graduação</a>
+                        <ul id="submenu-cabecalho1" class="submenu">
+                            <li><a href="#">Espaço fisico</a></li>
+                            <li><a href="#">Espaço fisico2</a></li>
+                            <li><a href="#">Espaço fisico3</a></li>
+                            <li><a href="#">Espaço fisico4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pós-Graduação</a>
+                        <ul id="submenu-cabecalho1" class="submenu">
+                            <li><a href="#">Espaço fisico</a></li>
+                            <li><a href="#">Espaço fisico2</a></li>
+                            <li><a href="#">Espaço fisico3</a></li>
+                            <li><a href="#">Espaço fisico4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Serviços</a>
+                        <ul id="submenu-cabecalho1" class="submenu">
+                            <li><a href="#">Espaço fisico</a></li>
+                            <li><a href="#">Espaço fisico2</a></li>
+                            <li><a href="#">Espaço fisico3</a></li>
+                            <li><a href="#">Espaço fisico4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pessoal</a>
+                        <ul id="submenu-cabecalho1" class="submenu">
+                            <li><a href="#">Espaço fisico</a></li>
+                            <li><a href="#">Espaço fisico2</a></li>
+                            <li><a href="#">Espaço fisico3</a></li>
+                            <li><a href="#">Espaço fisico4</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
             
         </div>

@@ -6,7 +6,7 @@ Version: 0.0.1
 Tags: INF, UFG
 */
 
-/* - MASTER.RESET <<<--------
+ - MASTER.RESET <<<--------
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,
@@ -31,8 +31,6 @@ time, mark, audio, video, active, hover, selected {
 ol,ul {
     list-style: none;
 }
-
-*/
 
 .total-centro {
     max-width:1000px;
@@ -136,7 +134,7 @@ header#cabecalho-pagina #id-ufg img {
     
 }
 
-@media (max-width : 320px) {
+@media (max-width : 420px) {
     header#cabecalho-pagina #id-inf {
         width:100%;
         height:100px;
@@ -148,9 +146,16 @@ header#cabecalho-pagina #id-ufg img {
     }
     
     header#cabecalho-pagina #id-ufg {
-        margin:0 15% 0 15%;
+        width:100%;
+        margin:0;
         float:left;
         clear:both;
+        text-align:center;
+        height:100px;
+    }
+    header#cabecalho-pagina #id-ufg img {
+        height:100%;
+        width:auto;
     }
 }
 
@@ -167,9 +172,11 @@ header#cabecalho-pagina #grupo-centro {
 }
 
 
-@media (max-width : 320px) {
+@media (max-width : 420px) {
     header#cabecalho-pagina #grupo-centro {
+        width:100%;
         float:left;
+        margin:0;
     }
 }
 
@@ -202,7 +209,7 @@ header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #
     
 }
 
-@media (max-width : 320px) {
+@media (max-width : 420px) {
     header#cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade {
         float:left;
         margin: 0 0 2em 3em;
@@ -284,15 +291,17 @@ header#cabecalho-pagina #grupo-midias-sociais .icone-midia img {
     height:auto;
 }
 
-@media (max-width : 320px) {
+@media (max-width : 420px) {
     header#cabecalho-pagina #grupo-midias-sociais {
-        margin:3em 0 0 0.5em;
+        margin-top:3em;
         clear:both;
+        width:100%;
     
     }
     header#cabecalho-pagina #grupo-midias-sociais .icone-midia {
         float:left;
-        margin: 0 0.5% 0 0.5%;
+        margin: 0 0 0 2%;
+        width:10%;
     }
 }
 
@@ -324,18 +333,7 @@ header#cabecalho-pagina #grupo-busca #grupo-form-busca {
     
 }
 
-@media (max-width : 320px) {
-    header#cabecalho-pagina #grupo-busca {
-        float:left;
-        clear:both;
-        margin:0 0 0em 2em;
-    }
 
-    header#cabecalho-pagina #grupo-busca #grupo-form-busca {
-        float:left;
-        margin: 0 0 0 0;
-    }
-}
 
 header#cabecalho-pagina #grupo-busca #grupo-form-busca form input.busca {
     border:none;
@@ -364,6 +362,30 @@ header#cabecalho-pagina #grupo-busca #grupo-form-busca form input.botao-busca {
 }
 
 
+@media (max-width : 420px) {
+    header#cabecalho-pagina #grupo-busca {
+        float:left;
+        clear:both;
+        margin:0 0 0em 1.5em;
+        width:90%;
+    }
+
+    header#cabecalho-pagina #grupo-busca #grupo-form-busca {
+        float:left;
+        margin: 0 0 0 0;
+        width:96%;
+        
+    }
+    
+    header#cabecalho-pagina #grupo-busca #grupo-form-busca form input.campo-busca {
+        width:92%;
+    }
+    
+    
+    
+    
+}
+
 /***********************************************************
  * MENU SUPERIOR
 *************************************************************/
@@ -377,33 +399,55 @@ header#cabecalho-pagina #nav-menu-cabecalho .menu {
     color:#333;
 }
 
-header#cabecalho-pagina #nav-menu-cabecalho menu.menu {
+header#cabecalho-pagina #nav-menu-cabecalho ul.menu {
     margin:0;
     padding:0;
     border:0;
+    position:relative;
 }
 
-header#cabecalho-pagina #nav-menu-cabecalho menu.menu > li {
-    display:table-cell;
+header#cabecalho-pagina #nav-menu-cabecalho ul.menu > li {
+    display:table;
     border-bottom:3px solid #689eca;
     line-height:25px;
     float:left;
     position:relative;
+    margin-bottom:0;
     
     font-size:12px;
     padding:5px 20px 2px 15px;
     font-weight:normal;
 }
 
-header#cabecalho-pagina #nav-menu-cabecalho menu.menu > li > a {
+#nav-menu-cabecalho ul.menu ul {
+    display:none;
+    z-index:100;
+    position:absolute;
+    height:0;
+    top:100%;
+    left:0;
+}
+
+#nav-menu-cabecalho ul.menu li:hover ul,
+#nav-menu-cabecalho ul.menu li:active ul,
+#nav-menu-cabecalho ul.menu li:focus ul {
+    display:block;
+}
+
+#nav-menu-cabecalho ul.menu li:focus {
+    color:black;
+    background-color:yellow;
+}
+
+header#cabecalho-pagina #nav-menu-cabecalho ul.menu > li > a {
     font:inherit;
     text-decoration:inherit;
     color:inherit;
 }
 
-header#cabecalho-pagina #nav-menu-cabecalho menu.menu > li:hover,
-header#cabecalho-pagina #nav-menu-cabecalho menu.menu > li:focus,
-header#cabecalho-pagina #nav-menu-cabecalho menu.menu .submenu {
+header#cabecalho-pagina #nav-menu-cabecalho ul.menu > li:hover,
+header#cabecalho-pagina #nav-menu-cabecalho ul.menu > li:focus,
+header#cabecalho-pagina #nav-menu-cabecalho ul.menu > li:active {
     background-color:#689eca;
     color:white;
     display:block;
@@ -418,6 +462,30 @@ header#cabecalho-pagina #nav-menu-cabecalho menu.menu .submenu {
     background-color:#689eca;
     list-style:none;
     
+}
+
+.submenu li {
+    
+    border-bottom:3px solid #689eca;
+    line-height:25px;
+    float:left;
+    position:relative;
+}
+
+.submenu li a {
+    display:block;
+    font:inherit;
+    text-decoration:inherit;
+    color:inherit;
+    font-size:12px;
+    padding:5px 20px 2px 15px;
+    font-weight:normal;
+    width:150px;
+    
+}
+
+.submenu li:hover {
+    text-decoration:underline;
 }
 
 
@@ -505,6 +573,36 @@ header#cabecalho-pagina #nav-menu-cabecalho menu.menu .submenu {
 #menu-lateral .menu-lateral-subitem:hover,
 #menu-lateral .menu-lateral-subitem:focus {
     background-color: #dfdfdf;
+}
+
+#menu-lateral-mobile {
+    display:none;
+}
+
+@media (max-width : 420px) {
+    #menu-lateral {
+        width:100%;
+        float:left;
+}
+    #menu-lateral-mobile {
+        display:block;
+        width:100%;
+        background-color: #ddedf1;
+        color: #2576b2;
+        font-weight: bold;
+        text-align:center;
+        padding-top:1em;
+        padding-bottom:1em;
+    }
+    
+    
+    #menu-lateral ul {
+        display:none;
+    }
+    
+    #menu-lateral:hover ul {
+        display:block;
+    }
 }
 
 /***********************************************************

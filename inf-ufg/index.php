@@ -3,7 +3,8 @@
 <section id="principal" class="clear ">
     <div id="conteudo" class="total-centro">
         <nav id="menu-lateral" class="clear">
-            <ul class="menu-lateral-topo">
+            <div id="menu-lateral-mobile">MENU</div>
+            <ul id="menu-lateral-topo" class="menu-lateral-topo">
                 <li class="menu-lateral-titulo"><a href="#">Graduação</a></li>
                 <ul class="menu-lateral-sub">
                     <li class="menu-lateral-subitem"><a href="#">Ciências da Computação</a></li>
