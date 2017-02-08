@@ -87,6 +87,12 @@ table {
     overflow:hidden;
 }
 
+.negrito {
+    font-weight:bold !important;
+}
+
+
+
 html {
     font-family:Verdana, Arial, Helvetica, sans-serif !important;
     padding:0;
@@ -183,7 +189,7 @@ header#cabecalho-pagina #id-inf #sigla-inf {
     font-size:260%;
     margin:0;
     padding:0;
-    font-weight:bold;
+    font-weight:300;
 }
 
 header#cabecalho-pagina #id-inf #inf-completo {
@@ -807,6 +813,19 @@ footer #grupo-rodape .rodape-caixa {
 footer #grupo-rodape .rodape-caixa p {
     margin: 0 0 1em;
 }
+
+footer #grupo-rodape .rodape-caixa a {
+    font:inherit;
+    color:inherit;
+    text-decoration:inherit;
+    font-weight:bold;
+}
+
+footer #grupo-rodape .rodape-caixa a:hover {
+    text-decoration:underline;
+}
+
+
 
 footer #grupo-rodape .rodape-caixa-direita {
     margin-right:16px;

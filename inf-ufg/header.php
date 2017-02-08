@@ -115,7 +115,7 @@
                     
                 </div>
             </div>
-            <nav id="nav-menu-cabecalho" class="clear">
+            <!--<nav id="nav-menu-cabecalho" class="clear">
                 <ul id="menu-cabecalho" class="menu">
                     <li><a href="#">O Instituto de Informática</a>
                         <ul id="submenu-cabecalho1" class="submenu">
@@ -158,7 +158,7 @@
                         </ul>
                     </li>
                 </ul>
-            </nav>
+            </nav>!-->
             
         </div>
         

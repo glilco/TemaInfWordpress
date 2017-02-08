@@ -6,12 +6,31 @@
             <div id="menu-lateral-mobile">MENU</div>
             <span class="leitor-tela">Menu lateral</span>
             <ul id="menu-lateral-topo" class="menu-lateral-topo">
-                <li class="menu-lateral-titulo"><a href="#" title="Menu Graduação">Graduação</a></li>
+                <li class="menu-lateral-titulo"><a href="#">O Instituto de Informática</a></li>
                 <ul class="menu-lateral-sub">
-                    <li class="menu-lateral-subitem"><a href="#" title="Submenu">Ciências da Computação</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Apresentação</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Administração</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Laboratórios</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Marca do INF</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Pessoal</a></li>
+                </ul>
+                <li class="menu-lateral-titulo"><a href="#">Documentos</a></li>
+                <ul class="menu-lateral-sub">
+                    <li class="menu-lateral-subitem"><a href="#">Formulários</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Políticas de uso</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Resoluções</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Requerimento Acadêmico</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Formatação de PFCs e Dissertações</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Informes internos</a></li>
+                </ul>
+                <li class="menu-lateral-titulo"><a href="#">Graduação</a></li>
+                <ul class="menu-lateral-sub">
+                    <li class="menu-lateral-subitem"><a href="#">Ciências da Computação</a></li>
                     <li class="menu-lateral-subitem"><a href="#">Engenharia de Software</a></li>
                     <li class="menu-lateral-subitem"><a href="#">Sistemas de Informação</a></li>
                     <li class="menu-lateral-subitem"><a href="#">Estágio</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Monitoria</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Trabalho de Conclusão de Curso</a></li>
                 </ul>
                 <li class="menu-lateral-titulo"><a href="#">Pós-Graduação</a></li>
                 <ul class="menu-lateral-sub">
@@ -32,21 +51,23 @@
                     <li class="menu-lateral-subitem"><a href="#">APOEMA</a></li>
                     <li class="menu-lateral-subitem"><a href="#">CFTI</a></li>
                     <li class="menu-lateral-subitem"><a href="#">Maratona de Programação</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">OBI - Olimpíada Brasileira de Informática</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">CTS - Centro de Tecnologia de Software</a></li>
                 </ul>
-                <li class="menu-lateral-titulo"><a href="#">UFG</a></li>
+                <li class="menu-lateral-titulo"><a href="#">Serviços</a></li>
                 <ul class="menu-lateral-sub">
-                    <li class="menu-lateral-subitem"><a href="#">Biblioteca Central</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Portal da UFG</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Portal SIG</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Portal UFGNet</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Assistência ao usuário</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Biblioteca Digital</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Chat</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">EGroupware</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Educação à distância</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Intranet</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">OwnCloud</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Servidor BOCA</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Webmail Antigo</a></li>
+                    <li class="menu-lateral-subitem"><a href="#">Webmail Novo</a></li>
                 </ul>
-                <li class="menu-lateral-titulo"><a href="#">Portais externos</a></li>
-                <ul class="menu-lateral-sub">
-                    <li class="menu-lateral-subitem"><a href="#">CAPES</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">CNPQ</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">FINEP</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">FUNAPE</a></li>
-                </ul>
+                <li class="menu-lateral-titulo"><a href="#">Eventos</a></li>
             </ul>
         </nav>
     

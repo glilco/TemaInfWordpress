@@ -1,10 +1,13 @@
             <footer class="clear">
                 <nav id="rodape-nav-menu-inferior" class="clear total-centro">
                     <menu id="rodape-menu-inferior">
-                        <li><a href="">Fale conosco</a></li>
-                        <li><a href="">Dúvidas frequentes</a></li>
-                        <li><a href="">Webmail</a></li>
-                        <li><a href="">Telefones</a></li>
+                        <li><a href="#">Tablets</a></li>
+                        <li><a href="#">CAPES</a></li>
+                        <li><a href="#">CNPq</a></li>
+                        <li><a href="#">FAPEG</a></li>
+                        <li><a href="#">FINEP</a></li>
+                        <li><a href="#">FUNAPE</a></li>
+                        <li><a href="#">SBC</a></li>
                     </menu>
                 </nav>
                 <div id="rodape-cheio" class="clear">
@@ -13,21 +16,27 @@
                             <a href="/"><img src="<?php echo get_template_directory_uri() . '/imagens/INFVertical-white.png'; ?> " alt="Marca do Instituto de Informática na cor branca. Instituto de Informática. UFG" /></a>
                         </div>
                         <div id="rodape-address" class="rodape-caixa">
-                            <p><strong>INF - Instituto de Informática</strong></p>
-                            <p>Alameda Palmeiras, Quadra D<br />
+                            <p class="negrito">INF - Instituto de Informática</p>
+                            <p><a href="#">Localização</a></p>
+                            Alameda Palmeiras, Quadra D<br />
                             Campus Samambaia - UFG<br />
                             CEP 74690-900<br />
                             Goiânia - Goiás - Brasil<br />
+                            
                         </div>
                         <div id="rodape-contact" class="rodape-caixa">
-                            <p>Fone: (62) 3521-1181</p>
-                            <p>Fax: (62) 3521-1182</p>
+                            <a href="#">Fale conosco</a> <br />
+                            <p><a href="#">Telefones</a> <br />
+                            Fone: (62) 3521-1181<br />
+                            Fax: (62) 3521-1182</p>
 
                         </div>
                         <div id="rodape-info" class="rodape-caixa rodape-caixa-direita rodape-imagem">
+                            <p><a href="#">Mapa do site</a><br /></p>
+                            
                             <a href="http://www.sic.ufg.br/">
                             <img src="<?php echo get_template_directory_uri() . '/imagens/icone-acesso-a-informacao.svg'; ?> " alt="Acesso à Informação"/>
-                        </a>
+                            </a>
                         </div>
                     </div>
                 </div>
