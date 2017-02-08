@@ -4,10 +4,11 @@
     <div id="conteudo" class="total-centro">
         <nav id="menu-lateral" class="clear">
             <div id="menu-lateral-mobile">MENU</div>
+            <span class="leitor-tela">Menu lateral</span>
             <ul id="menu-lateral-topo" class="menu-lateral-topo">
-                <li class="menu-lateral-titulo"><a href="#">Graduação</a></li>
+                <li class="menu-lateral-titulo"><a href="#" title="Menu Graduação">Graduação</a></li>
                 <ul class="menu-lateral-sub">
-                    <li class="menu-lateral-subitem"><a href="#">Ciências da Computação</a></li>
+                    <li class="menu-lateral-subitem"><a href="#" title="Submenu">Ciências da Computação</a></li>
                     <li class="menu-lateral-subitem"><a href="#">Engenharia de Software</a></li>
                     <li class="menu-lateral-subitem"><a href="#">Sistemas de Informação</a></li>
                     <li class="menu-lateral-subitem"><a href="#">Estágio</a></li>

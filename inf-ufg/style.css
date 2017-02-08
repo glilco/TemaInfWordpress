@@ -6,7 +6,7 @@ Version: 0.0.1
 Tags: INF, UFG
 */
 
- - MASTER.RESET <<<--------
+/* MASTER RESET */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,
@@ -24,13 +24,39 @@ time, mark, audio, video, active, hover, selected {
     margin: 0;
     padding: 0;
     border: 0;
-    outline: none;
     text-decoration: none;
+    font-size: 100%;
+    font:inherit;
+    vertical-align:baseline;
 }
 
-ol,ul {
-    list-style: none;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
+
+body {
+	/*line-height: 1;*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MASTER RESET END */
 
 .total-centro {
     max-width:1000px;
@@ -45,10 +71,20 @@ ol,ul {
     clear:both;
 }
 
+
 .fieldset-form {
     margin:0;
     padding:0;
     border:none;
+}
+
+.leitor-tela {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    /*width:1px;*/
+    height:1px;
+    overflow:hidden;
 }
 
 html {
@@ -57,6 +93,7 @@ html {
     margin:0;
     border:0;
     height:100%;
+    width:100%;
 }
 
 body {
@@ -64,6 +101,7 @@ body {
     padding:0;
     border:0;
     height:100%;
+    width:100%;
 }
 
 /***********************************************************
@@ -83,6 +121,40 @@ header#cabecalho-pagina #grupo-cabecalho {
     display:block;
 }
 
+header#cabecalho-pagina #links-conteudo {
+    border:0;
+    padding:0;
+    margin:0 0 3px 1em;
+}
+
+header#cabecalho-pagina #links-conteudo li {
+    display: inline;
+    color: #333;
+    font-size: x-small;
+    margin: 0 1.5em 0 0;
+}
+
+header#cabecalho-pagina #links-conteudo li a {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: inherit;
+}
+
+header#cabecalho-pagina #links-conteudo li a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho-pagina #links-conteudo li a span {
+    background-color: #2576b2;
+    padding: 1px 4px;
+    color: #fff;
+}
+
+@media (max-width : 420px) {
+    header#cabecalho-pagina #grupo-links-conteudo {
+        display:none;
+    }
+}
 
 header#cabecalho-pagina #id-inf {
     width:200px;
@@ -102,7 +174,7 @@ header#cabecalho-pagina #id-inf #texto-id-inf {
     display:block;
     /*padding-right:5%;*/
     line-height:160%;
-    font-family:Arial, Helvetica, sans-serif !important;
+    font-family:"Myriad Pro Semibold", "Myriad Pro", Myriad, Arial, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, sans-serif; !important;
     color:black;
     margin: 25% 0 25% 0;
 }
@@ -111,6 +183,7 @@ header#cabecalho-pagina #id-inf #sigla-inf {
     font-size:260%;
     margin:0;
     padding:0;
+    font-weight:bold;
 }
 
 header#cabecalho-pagina #id-inf #inf-completo {

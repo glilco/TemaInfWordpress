@@ -24,6 +24,14 @@
 </div>
     <header id="cabecalho-pagina">
         <div id="grupo-cabecalho" class="total-centro">
+            <div id="grupo-links-conteudo">
+                <ul id="links-conteudo">
+                    <li><a href="#area-conteudo" accesskey="1" tabindex="1">Ir para o conteúdo <span>1</span></a></li>
+                    <li><a href="#menu-lateral" accesskey="2" tabindex="2">Ir para o menu <span>2</span></a></li>
+                    <li><a href="#grupo-busca" accesskey="3" tabindex="3">Ir para pesquisa <span>3</span></a></li>
+                    <li><a href="#grupo-rodape" accesskey="4" tabindex="4">Ir para o rodapé <span>4</span></a></li>
+                </ul>
+            </div>
             <div id="id-inf">
                 <div id="texto-id-inf">
                     <a href="/">
@@ -34,14 +42,14 @@
             </div>
             <div id="id-ufg">
                 <a href="http://www.ufg.br">
-                    <img src="<?php echo get_template_directory_uri() . '/imagens/UFG_ufg.svg'; ?> "/>
+                    <img src="<?php echo get_template_directory_uri() . '/imagens/UFG_ufg.svg'; ?> " alt="Marca da UFG em azul com letras pretas. UFG Universidade Federal de Goiás"/>
                 </a>
             </div>
             
             <div id="grupo-busca">
                 <div id="grupo-form-busca">
                 
-                    <form action="/news" accept-charset="UTF-8" method="get" role="search" action="http://localhost/">
+                    <form action="/news" accept-charset="UTF-8" method="get" role="search">
                         <fieldset id="cabecalho-fieldset-busca" class="fieldset-form">
                             <input class="busca campo-busca" type="search" name="s" id="search" placeholder="Buscar no site" />
                             <input class="busca botao-busca" id="cabecalho-busca-botao" type="submit" value="Buscar no site" />
@@ -52,12 +60,12 @@
             
             <div id="grupo-centro">
                 <div class="" id="grupo-acessibilidade">
-                    
                     <nav class="" id="acessibilidade-fonte-constraste">
+                    <div class="leitor-tela">Controles de acessibilidade. Altera tamanho da fonte e contraste</div>
                         <span id="acessibilidade" class="">
                             <span id="acessibilidade-fonte" class=''><a onclick="font_size_change(&quot;minus&quot;)" title=" Diminuir o tamanho da fonte " href="#"><i class="fa fa-minus">-</i></a><a onclick="font_size_original()" title=" Tamanho padrão da fonte " href="#"><i class="fa fa-font">A</i></a><a onclick="font_size_change(&quot;plus&quot;)" title=" Aumentar o tamanho da fonte " href="#"><i class="fa fa-plus">+</i></a></span>
                             <span id="acessibilidade-cor" class="">
-                                <a class="contrast_normal" href="#">C</a><a class="contrast_blue" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_blue-07f28312874727e9d50b72e0bd43a939.css" href="#">C</a><a class="contrast_black" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_black-5b8f71320d63f67eb4050c3e55789fa7.css" href="#">C</a><a class="contrast_yellow" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_yellow-6ebde06f6ce5a3e10ba7173c2a08c984.css" href="#">C</a>
+                                <a class="contrast_normal" title="Contraste original" href="#">C</a><a class="contrast_blue" title="Alto contraste azul" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_blue-07f28312874727e9d50b72e0bd43a939.css" href="#">C</a><a class="contrast_black" title="Alto contraste preto" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_black-5b8f71320d63f67eb4050c3e55789fa7.css" href="#">C</a><a class="contrast_yellow" title="Alto contraste amarelo" data-url="//assets.cercomp.ufg.br/assets/shared/contrast_yellow-6ebde06f6ce5a3e10ba7173c2a08c984.css" href="#">C</a>
                             </span>
                         </span>
                     </nav>
@@ -66,42 +74,42 @@
                 <div id="grupo-midias-sociais">
                     <div id="icone-facebook" class="icone-midia">
                         <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/facebook.png'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/facebook.png'; ?> " alt="Facebook"/>
                         </a>
                     </div>
                     <div id="icone-instagram" class="icone-midia">
                         <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/instagram.png'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/instagram.png'; ?> " alt="Instagram"/>
                         </a>
                     </div>
                     <div id="icone-radio" class="icone-midia">
                         <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/radio.png'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/radio.png'; ?> " alt="Rádio Universitária"/>
                         </a>
                     </div>
                     <div id="icone-twitter" class="icone-midia">
                         <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/twitter.png'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/twitter.png'; ?> " alt="Twitter"/>
                         </a>
                     </div>
                     <div id="icone-flickr" class="icone-midia">
                         <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/flickr.png'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/flickr.png'; ?> " alt="Flickr"/>
                         </a>
                     </div>
                     <div id="icone-picasa" class="icone-midia">
                         <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/picasa.png'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/picasa.png'; ?> " alt="Picasa"/>
                         </a>
                     </div>
                     <div id="icone-tv" class="icone-midia">
                         <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/tv.png'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/tv.png'; ?> " alt="TV UFG"/>
                         </a>
                     </div>
                     <div id="icone-youtube" class="icone-midia">
                         <a href="#">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/youtube.png'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/ufg-redes-sociais/youtube.png'; ?> " alt="Youtube"/>
                         </a>
                     </div>
                     
@@ -156,7 +164,7 @@
         
         <div id="cabecalho-carrossel" class="clear">
             <div id="cabecalho-carrossel-corpo" class="total-centro">
-                <img src="<?php echo get_template_directory_uri() . '/imagens/INF.jpg'; ?> " />
+                <img src="<?php echo get_template_directory_uri() . '/imagens/INF.jpg'; ?> " alt="Foto da entrada do Instituto de Informática. Algumas pessoas entrando na porta. À direita, uma placa onde se lê: Instituto de Informática - INF"/>
             </div>
         </div>
     </header>

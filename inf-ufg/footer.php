@@ -10,7 +10,7 @@
                 <div id="rodape-cheio" class="clear">
                     <div id="grupo-rodape" class="total-centro">
                         <div id="rodape-logo" class="rodape-caixa rodape-caixa-esquerda rodape-imagem">
-                            <a href="/"><img src="<?php echo get_template_directory_uri() . '/imagens/INFVertical-white.png'; ?> " /></a>
+                            <a href="/"><img src="<?php echo get_template_directory_uri() . '/imagens/INFVertical-white.png'; ?> " alt="Marca do Instituto de Informática na cor branca. Instituto de Informática. UFG" /></a>
                         </div>
                         <div id="rodape-address" class="rodape-caixa">
                             <p><strong>INF - Instituto de Informática</strong></p>
@@ -26,7 +26,7 @@
                         </div>
                         <div id="rodape-info" class="rodape-caixa rodape-caixa-direita rodape-imagem">
                             <a href="http://www.sic.ufg.br/">
-                            <img src="<?php echo get_template_directory_uri() . '/imagens/icone-acesso-a-informacao.svg'; ?> "/>
+                            <img src="<?php echo get_template_directory_uri() . '/imagens/icone-acesso-a-informacao.svg'; ?> " alt="Acesso à Informação"/>
                         </a>
                         </div>
                     </div>
