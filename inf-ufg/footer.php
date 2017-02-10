@@ -1,6 +1,6 @@
             <footer class="clear">
                 <nav id="rodape-nav-menu-inferior" class="clear total-centro">
-                    <menu id="rodape-menu-inferior">
+                    <ul id="rodape-menu-inferior">
                         <li><a href="#">Tablets</a></li>
                         <li><a href="#">CAPES</a></li>
                         <li><a href="#">CNPq</a></li>
@@ -8,7 +8,7 @@
                         <li><a href="#">FINEP</a></li>
                         <li><a href="#">FUNAPE</a></li>
                         <li><a href="#">SBC</a></li>
-                    </menu>
+                    </ul>
                 </nav>
                 <div id="rodape-cheio" class="clear">
                     <div id="grupo-rodape" class="total-centro">

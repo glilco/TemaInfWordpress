@@ -54,20 +54,6 @@
                     <li class="menu-lateral-subitem"><a href="#">OBI - Olimpíada Brasileira de Informática</a></li>
                     <li class="menu-lateral-subitem"><a href="#">CTS - Centro de Tecnologia de Software</a></li>
                 </ul>
-                <li class="menu-lateral-titulo"><a href="#">Serviços</a></li>
-                <ul class="menu-lateral-sub">
-                    <li class="menu-lateral-subitem"><a href="#">Assistência ao usuário</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Biblioteca Digital</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Chat</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">EGroupware</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Educação à distância</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Intranet</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">OwnCloud</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Servidor BOCA</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Webmail Antigo</a></li>
-                    <li class="menu-lateral-subitem"><a href="#">Webmail Novo</a></li>
-                </ul>
-                <li class="menu-lateral-titulo"><a href="#">Eventos</a></li>
             </ul>
         </nav>
     

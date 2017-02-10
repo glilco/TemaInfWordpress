@@ -46,7 +46,8 @@
                 </a>
             </div>
             
-            <div id="grupo-busca">
+            <!-- Busca do layout antigo do medialab !-->
+            <!--<div id="grupo-busca">
                 <div id="grupo-form-busca">
                 
                     <form action="/news" accept-charset="UTF-8" method="get" role="search">
@@ -56,7 +57,7 @@
                         </fieldset>
                     </form>
                 </div>
-            </div>
+            </div>!-->
             
             <div id="grupo-centro">
                 <div class="" id="grupo-acessibilidade">
@@ -115,6 +116,7 @@
                     
                 </div>
             </div>
+            <!-- Menu superior drop down do layout antigo do medialab !-->
             <!--<nav id="nav-menu-cabecalho" class="clear">
                 <ul id="menu-cabecalho" class="menu">
                     <li><a href="#">O Instituto de Informática</a>
@@ -160,6 +162,52 @@
                 </ul>
             </nav>!-->
             
+            
+            
+        </div>
+        
+        <!-- Barra superior do layout novo do medialab !-->
+        <div id="barra-superior" class="clear">
+            <div id="grupo-barra-superior" class="total-centro">
+        
+                <div id="grupo-busca-barra-superior" class="elemento-barra-superior">
+                
+                    <form action="/news" accept-charset="UTF-8" method="get" role="search">
+                        <fieldset id="cabecalho-fieldset-busca-superior" class="fieldset-form">
+                            <input class="busca-superior campo-busca-superior" type="search" name="s" id="search" placeholder="Buscar no site" />
+                            <input class="busca-superior botao-busca-superior" id="cabecalho-busca-botao" type="submit" value="Buscar no site" />
+                        </fieldset>
+                    </form>
+                </div>
+                
+                <nav id="nav-menu-barra-superior">
+                    <ul id="menu-barra-superior" class="menu">
+                        <li class="elemento-barra-superior"><a href="#">Serviços do INF</a>
+                            <ul class="submenu-barra-superior">
+                                 <li class=""><a href="#">Assistência ao usuário</a></li>
+                                    <li class=""><a href="#">Biblioteca Digital</a></li>
+                                    <li class=""><a href="#">Chat</a></li>
+                                    <li class=""><a href="#">EGroupware</a></li>
+                                    <li class=""><a href="#">Educação à distância</a></li>
+                                    <li class=""><a href="#">Intranet</a></li>
+                                    <li class=""><a href="#">OwnCloud</a></li>
+                                    <li class=""><a href="#">Servidor BOCA</a></li>
+                                    <li class=""><a href="#">Webmail Antigo</a></li>
+                                    <li class=""><a href="#">Webmail Novo</a></li>
+                            </ul>
+                        </li>
+                        <li class="elemento-barra-superior"><a href="#">Sistemas da UFG</a>
+                            <ul class="submenu-barra-superior">
+                                <li><a href="#">Portal UFGNet</a></li>
+                                <li><a href="#">Webmail</a></li>
+                                <li><a href="#">Matrícula</a></li>
+                                <li><a href="#">Concursos</a></li>
+                                <li><a href="#">Portal SIG</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         
         <div id="cabecalho-carrossel" class="clear">

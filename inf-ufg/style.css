@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	/*line-height: 1;*/
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -120,9 +120,6 @@ header#cabecalho-pagina {
     /*background: linear-gradient(90deg, #f0f5f9 50%, #ffffff 50%);*/
 }
 header#cabecalho-pagina #grupo-cabecalho {
-    
-    height: 140px;
-    
     background-color:#fff;
     display:block;
 }
@@ -164,7 +161,7 @@ header#cabecalho-pagina #links-conteudo li a span {
 
 header#cabecalho-pagina #id-inf {
     width:200px;
-    height:140px;
+    height:100px;
     display:block;
     background: #ddedf1;
     text-align:center;
@@ -182,14 +179,14 @@ header#cabecalho-pagina #id-inf #texto-id-inf {
     line-height:160%;
     font-family:"Myriad Pro Semibold", "Myriad Pro", Myriad, Arial, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, sans-serif; !important;
     color:black;
-    margin: 25% 0 25% 0;
+    margin: 15% 0 15% 0;
 }
 
 header#cabecalho-pagina #id-inf #sigla-inf {
     font-size:260%;
     margin:0;
     padding:0;
-    font-weight:300;
+    font-weight:bold;
 }
 
 header#cabecalho-pagina #id-inf #inf-completo {
@@ -202,14 +199,14 @@ header#cabecalho-pagina #id-inf #inf-completo {
 
 header#cabecalho-pagina #id-ufg {
     width: 200px;
-    height: 140px;
+    height: 100px;
     display: block;
     float: left;
 }
 
 header#cabecalho-pagina #id-ufg img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     
 }
 
@@ -355,7 +352,7 @@ header#cabecalho-pagina #grupo-midias-sociais {
     width:100%;
     display:block;
     height:40px;
-    margin:25% 0 0 0;
+    margin:15% 0 0 0;
 }
 
 header#cabecalho-pagina #grupo-midias-sociais .icone-midia {
@@ -840,5 +837,148 @@ footer #grupo-rodape #rodape-logo img {
 }
 
 
+/***********************************************************
+ * BARRA SUPERIOR
+*************************************************************/
 
 
+#barra-superior {
+    display: block;
+    height: 37px;
+    background-color: #4478a4;
+    color:#fff;
+}
+
+#grupo-barra-superior {
+    display: block;
+    height: 100%;
+}
+
+
+
+#barra-superior #nav-menu-barra-superior {
+    float: right;
+    font-size: small;
+    border-left: 1px solid #fff;
+    height:100%;
+}
+
+#menu-barra-superior {
+    position:relative;
+    height:100%;
+}
+
+#menu-barra-superior .submenu-barra-superior {
+    display:none;
+    z-index:100;
+    position:absolute;
+    height:0;
+    top:100%;
+    left:0;
+}
+
+#menu-barra-superior .submenu-barra-superior li {
+    background-color: #ccc;
+    display: block;
+    width: 100%;
+    color: #333;
+}
+
+#menu-barra-superior .submenu-barra-superior li a:hover {
+    background-color:#999;
+}
+
+
+#menu-barra-superior li > a {
+    display: block;
+    padding: 10px;
+}
+
+#barra-superior #nav-menu-barra-superior ul li {
+    display: block;
+    float: left;
+}
+
+#menu-barra-superior > li {
+    position:relative;
+    background-image: url("./imagens/drop-down-white1.png");
+    background-repeat: no-repeat;
+    background-position: 95% 14px;
+    padding-right: 15px;
+}
+
+#menu-barra-superior > li:hover {
+    background-image: url("./imagens/drop-down-white2.png");
+}
+
+#nav-menu-barra-superior .submenu-barra-superior {
+    display:none;
+}
+
+#barra-superior #nav-menu-barra-superior ul li:hover ul {
+    display:block;
+}
+
+
+.menu a, .submenu a {
+    font: inherit !important;
+    color: inherit;
+    text-decoration: inherit !important;
+}
+
+.elemento-barra-superior {
+    border-right: 1px solid #fff;
+    height:100%;
+}
+
+#grupo-barra-superior {
+    border-left: 1px solid #fff;
+}
+
+
+
+#grupo-busca-barra-superior form {
+    margin: 2% 0 0 20px;
+}
+
+
+#grupo-busca-barra-superior {
+
+    width: 35%;
+    float: left;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+#grupo-busca-barra-superior form input.busca-superior {
+    border:none;
+    margin:0;
+    padding:0;
+    line-height:1em;
+}
+
+
+#grupo-busca-barra-superior form input.campo-busca-superior {
+    padding: 2px 0 2px 8px;
+    background: #fff;
+    font-family: "Myriad Pro", Myriad, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 88%;
+    color:#999;
+    height:1.5em;
+}
+
+
+#grupo-busca-barra-superior form input.botao-busca-superior {
+    background:transparent;
+    background-image: url("./imagens/busca2.png");
+    background-repeat:no-repeat;
+    color:transparent !important;
+    white-space: nowrap;
+    text-indent:-9999px;
+    width:20px;
+    height:20px;
+}
