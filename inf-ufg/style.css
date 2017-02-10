@@ -962,6 +962,28 @@ footer #grupo-rodape #rodape-logo img {
 
 
 #grupo-busca-barra-superior form input.campo-busca-superior {
+    /* box-sizing hack for chrome */
+   -webkit-box-sizing: border-box;
+   /* box-sizing hack for firefox */
+   -moz-box-sizing: border-box;
+   /* box-sizing hack for opera */
+   box-sizing: border-box;
+   /* padding-before hack for chrome */
+   -webkit-padding-before: 1px;
+   -webkit-padding-after: 0;
+   -webkit-padding-start: 1px;
+   -webkit-padding-end: 0;
+   /* padding-before hack for firefox */
+   -moz-padding-before: 0px;
+   -moz-padding-after: 0;
+   -moz-padding-start: 1px;
+   -moz-padding-end: 0;
+   /* padding-before hack for opera */
+   padding-before: 1px;
+   padding-after: 0;
+   padding-start: 1px;
+   padding-end: 0;
+
     padding: 2px 0 2px 8px;
     background: #fff;
     font-family: "Myriad Pro", Myriad, Verdana, Arial, Helvetica, sans-serif;
@@ -969,6 +991,8 @@ footer #grupo-rodape #rodape-logo img {
     width: 88%;
     color:#999;
     height:1.5em;
+    
+    
 }
 
 
@@ -981,4 +1005,26 @@ footer #grupo-rodape #rodape-logo img {
     text-indent:-9999px;
     width:20px;
     height:20px;
+    
+    /* box-sizing hack for chrome */
+   -webkit-box-sizing: border-box;
+   /* box-sizing hack for firefox */
+   -moz-box-sizing: border-box;
+   /* box-sizing hack for opera */
+   box-sizing: border-box;
+   /* padding-before hack for chrome */
+   -webkit-padding-before: 1px;
+   -webkit-padding-after: 0;
+   -webkit-padding-start: 1px;
+   -webkit-padding-end: 0;
+   /* padding-before hack for firefox */
+   -moz-padding-before: 0px;
+   -moz-padding-after: 0;
+   -moz-padding-start: 1px;
+   -moz-padding-end: 0;
+   /* padding-before hack for opera */
+   padding-before: 1px;
+   padding-after: 0;
+   padding-start: 1px;
+   padding-end: 0;
 }
