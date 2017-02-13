@@ -25,11 +25,13 @@
     <header id="cabecalho-pagina">
         <div id="grupo-cabecalho" class="total-centro">
             <div id="grupo-links-conteudo">
+                <a href="#" class="link-acessibilidade link-menu menu-acessibilidade" tabindex="6">Acessibilidade</a>
                 <ul id="links-conteudo">
-                    <li><a href="#area-conteudo" accesskey="1" tabindex="1">Ir para o conteúdo <span>1</span></a></li>
-                    <li><a href="#menu-lateral" accesskey="2" tabindex="2">Ir para o menu <span>2</span></a></li>
-                    <li><a href="#grupo-busca" accesskey="3" tabindex="3">Ir para pesquisa <span>3</span></a></li>
-                    <li><a href="#grupo-rodape" accesskey="4" tabindex="4">Ir para o rodapé <span>4</span></a></li>
+                    <li><a href="#area-conteudo" class="link-menu" accesskey="1" tabindex="1">Ir para o conteúdo <span>1</span></a></li>
+                    <li><a href="#menu-barra-superior" class="link-menu" accesskey="2" tabindex="2">Ir para o menu superior <span>2</span></a></li>
+                    <li><a href="#grupo-busca" class="link-menu" accesskey="3" tabindex="3">Ir para pesquisa <span>3</span></a></li>
+                    <li><a href="#grupo-rodape" class="link-menu" accesskey="4" tabindex="4">Ir para o rodapé <span>4</span></a></li>
+                    <li><a href="#menu-lateral" class="link-menu" accesskey="5" tabindex="5">Ir para o menu lateral <span>5</span></a></li>
                 </ul>
             </div>
             <div id="id-inf">
@@ -181,28 +183,28 @@
                 </div>
                 
                 <nav id="nav-menu-barra-superior">
-                    <ul id="menu-barra-superior" class="menu">
-                        <li class="elemento-barra-superior"><a href="#">Serviços do INF</a>
-                            <ul class="submenu-barra-superior">
+                    <ul id="menu-barra-superior" class="menu-dropdown menu">
+                        <li class="elemento-barra-superior"><a class="link-menu" href="#">Serviços do INF</a>
+                            <ul class="submenu-barra-superior submenu-dropdown">
                                  <li class=""><a href="#">Assistência ao usuário</a></li>
-                                    <li class=""><a href="#">Biblioteca Digital</a></li>
-                                    <li class=""><a href="#">Chat</a></li>
-                                    <li class=""><a href="#">EGroupware</a></li>
-                                    <li class=""><a href="#">Educação à distância</a></li>
-                                    <li class=""><a href="#">Intranet</a></li>
-                                    <li class=""><a href="#">OwnCloud</a></li>
-                                    <li class=""><a href="#">Servidor BOCA</a></li>
-                                    <li class=""><a href="#">Webmail Antigo</a></li>
-                                    <li class=""><a href="#">Webmail Novo</a></li>
+                                    <li class=""><a class="link-menu" href="#">Biblioteca Digital</a></li>
+                                    <li class=""><a class="link-menu" href="#">Chat</a></li>
+                                    <li class=""><a class="link-menu" href="#">EGroupware</a></li>
+                                    <li class=""><a class="link-menu" href="#">Educação à distância</a></li>
+                                    <li class=""><a class="link-menu" href="#">Intranet</a></li>
+                                    <li class=""><a class="link-menu" href="#">OwnCloud</a></li>
+                                    <li class=""><a class="link-menu" href="#">Servidor BOCA</a></li>
+                                    <li class=""><a class="link-menu" href="#">Webmail Antigo</a></li>
+                                    <li class=""><a class="link-menu" href="#">Webmail Novo</a></li>
                             </ul>
                         </li>
-                        <li class="elemento-barra-superior"><a href="#">Sistemas da UFG</a>
-                            <ul class="submenu-barra-superior">
-                                <li><a href="#">Portal UFGNet</a></li>
-                                <li><a href="#">Webmail</a></li>
-                                <li><a href="#">Matrícula</a></li>
-                                <li><a href="#">Concursos</a></li>
-                                <li><a href="#">Portal SIG</a></li>
+                        <li class="elemento-barra-superior"><a class="link-menu" href="#">Sistemas da UFG</a>
+                            <ul class="submenu-barra-superior submenu-dropdown">
+                                <li><a class="link-menu" href="#">Portal UFGNet</a></li>
+                                <li><a class="link-menu" href="#">Webmail</a></li>
+                                <li><a class="link-menu" href="#">Matrícula</a></li>
+                                <li><a class="link-menu" href="#">Concursos</a></li>
+                                <li><a class="link-menu" href="#">Portal SIG</a></li>
                             </ul>
                         </li>
                     </ul>
