@@ -1,4 +1,4 @@
-            <footer class="clear">
+            <footer class="clear link-limpo-container">
                 <nav id="rodape-nav-menu-inferior" class="clear total-centro">
                     <ul id="rodape-menu-inferior">
                         <li><a href="#">Tablets</a></li>
@@ -11,7 +11,7 @@
                     </ul>
                 </nav>
                 <div id="rodape-cheio" class="clear">
-                    <div id="grupo-rodape" class="total-centro">
+                    <div id="grupo-rodape" class="total-centro link-limpo-container link-limpo-container-hover">
                         <div id="rodape-logo" class="rodape-caixa rodape-caixa-esquerda rodape-imagem">
                             <a href="/"><img src="<?php echo get_template_directory_uri() . '/imagens/INFVertical-white.png'; ?> " alt="Marca do Instituto de Informática na cor branca. Instituto de Informática. UFG" /></a>
                         </div>
