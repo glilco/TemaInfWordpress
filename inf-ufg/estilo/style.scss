@@ -40,12 +40,6 @@ p {
 }
 
 
-.fieldset-form {
-    margin:0;
-    padding:0;
-    border:none;
-}
-
 .leitor-tela {
     position:absolute;
     left:-10000px;
@@ -107,10 +101,55 @@ body {
     left:0;
 }
 
-
 .menu-dropdown li:hover .submenu-dropdown,
 .menu-dropdown li:focus .submenu-dropdown {
     display:block !important;
+}
+
+.negrito {
+    font-weight:bold !important;
+}
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+@mixin box-size-hack() {
+    /* box-sizing hack for chrome */
+  -webkit-box-sizing: border-box;
+  /* box-sizing hack for firefox */
+  -moz-box-sizing: border-box;
+  /* box-sizing hack for opera */
+  box-sizing: border-box;
+  /* padding-before hack for chrome */
+  -webkit-padding-before: 1px;
+  -webkit-padding-after: 0;
+  -webkit-padding-start: 1px;
+  -webkit-padding-end: 0;
+  /* padding-before hack for firefox */
+  -moz-padding-before: 0px;
+  -moz-padding-after: 0;
+  -moz-padding-start: 1px;
+  -moz-padding-end: 0;
+  /* padding-before hack for opera */
+  padding-before: 1px;
+  padding-after: 0;
+  padding-start: 1px;
+  padding-end: 0;
+}
+
+@mixin centraliza-vertical(){
+  &:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%; width: .1px;
+  }
 }
 
 

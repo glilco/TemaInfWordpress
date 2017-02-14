@@ -2,27 +2,25 @@
  * RODAPE
 *************************************************************/
 
-footer #rodape-menu-inferior {
+#rodape-menu-inferior {
     background-color: $cor-azul-escura;
     color:#fff;
     font-weight:bold;
     font-size:0.8em;
+    
+     li { 
+        display:inline-block;
+        text-align:center;
+        padding:1em;
+        &:hover {
+            background-color: $cor-azul-media;
+            color:$cor-fonte-azul-hover;
+        }
+    }
 }
 
 
-footer #rodape-menu-inferior li { 
-    display:inline-block;
-    text-align:center;
-    padding:1em;
-}
-
-footer #rodape-menu-inferior li:hover {
-    background-color: $cor-azul-media;
-    color:$cor-fonte-azul-hover;
-}
-
-
-footer #rodape-cheio {
+#rodape #rodape-cheio {
     background-color:$cor-azul-escura; /* Site UFG */
     /*background-color:#4b73b3;*/ /* Manual */
     /*background-color:#005CA1;*/ /* INF*/
@@ -31,46 +29,44 @@ footer #rodape-cheio {
     min-height:150px; 
 }
 
-footer #grupo-rodape {
+#rodape #grupo-rodape {
     background-color:$cor-azul-media; /* Site UFG*/
     /*background-color:#7b9ccb;*/ /* Manual */
     /*background-color:#4b73b3;*/ /* Complementar INF*/
     
     display:block;
-}
-
-footer #grupo-rodape p {
-    line-height:18px;
-    display:block;
-    height:100%;
-}
-
-footer #grupo-rodape .rodape-caixa {
-    width: 230px;
-    margin: 30px 5px 16px 5px;
-    vertical-align:top;
-    display:inline-block;
     
-}
-
-footer #grupo-rodape .rodape-caixa p {
-    margin: 0 0 1em;
-}
-
-footer #grupo-rodape .rodape-caixa a {
-    font-weight:bold;
-}
-
-
-
-footer #grupo-rodape .rodape-caixa-direita {
-    margin-right:16px;
-}
-footer #grupo-rodape .rodape-caixa-esquerda {
-    margin-left:16px;
-}
-
-footer #grupo-rodape #rodape-logo img {
-    max-width: 50%;
-    margin-right:15%;
+    p {
+        line-height:18px;
+        display:block;
+        height:100%;
+    }
+    
+    .rodape-caixa {
+        width: 230px;
+        margin: 30px 5px 16px 5px;
+        vertical-align:top;
+        display:inline-block;
+        
+        p {
+            margin: 0 0 1em;
+        }
+        
+        a {
+            font-weight:bold;
+        }
+    }
+    
+    .rodape-caixa-direita {
+        margin-right:16px;
+    }
+    
+    .rodape-caixa-esquerda {
+        margin-left:16px;
+    }
+    
+    #rodape-logo img {
+        max-width: 50%;
+        margin-right:15%;
+    }
 }

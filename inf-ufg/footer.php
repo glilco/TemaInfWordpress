@@ -1,6 +1,6 @@
-            <footer class="clear link-limpo-container">
-                <nav id="rodape-nav-menu-inferior" class="clear total-centro">
-                    <ul id="rodape-menu-inferior">
+            <footer id="rodape" class="clear link-limpo-container">
+                <nav id="rodape-menu-inferior" class="clear total-centro">
+                    <ul>
                         <li><a href="#">Tablets</a></li>
                         <li><a href="#">CAPES</a></li>
                         <li><a href="#">CNPq</a></li>
