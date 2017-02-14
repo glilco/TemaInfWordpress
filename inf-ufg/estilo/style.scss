@@ -1,0 +1,146 @@
+/*
+Theme Name: Protótipo de tema do Instituto de Informática
+Author: Murilo Ferraz Franco
+Description: Tema baseado na padronização de sites da UFG
+Version: 0.0.1
+Tags: INF, UFG
+*/
+
+$cor-azul-escura:#2576b2;
+$cor-azul-media:#689ECA;
+$cor-azul-clara:#ddedf1;
+$cor-azul-menu-superior:#4478a4;
+
+$cor-fonte-azul-hover:#005580;
+
+$cor-fonte-escura:#333;
+$cor-fonte-media:#666;
+$cor-fonte-clara:#999;
+
+
+@import 'reset';
+
+
+p {
+    line-height: 18px !important;
+    display: block;
+}
+
+.total-centro {
+    max-width:1000px;
+    margin:auto;
+}
+
+.rodape-imagem {
+    text-align:center;
+}
+
+.clear {
+    clear:both;
+}
+
+
+.fieldset-form {
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+.leitor-tela {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    /*width:1px;*/
+    height:1px;
+    overflow:hidden;
+}
+
+
+html {
+    font-family:Verdana, Arial, Helvetica, sans-serif !important;
+    padding:0;
+    margin:0;
+    border:0;
+    height:100%;
+    width:100%;
+    -moz-osx-font-smoothing: grayscale;
+    color:$cor-fonte-escura;
+}
+
+body {
+    margin:0;
+    padding:0;
+    border:0;
+    height:100%;
+    width:100%;
+}
+
+:focus {
+    outline:1px solid red;
+}
+
+.menu-bloco li:hover {
+    background-color: $cor-azul-media !important;
+    color:$cor-fonte-azul-hover !important;
+}
+
+.link-limpo-container a {
+    color:inherit;
+    text-decoration:inherit;
+    font:inherit;
+}
+
+.link-limpo-container-hover a:hover {
+    text-decoration: underline;
+}
+
+.menu-dropdown {
+    position:relative;
+}
+
+.submenu-dropdown {
+    display:none;
+    z-index:100;
+    position:absolute;
+    height:0;
+    top:100%;
+    left:0;
+}
+
+
+.menu-dropdown li:hover .submenu-dropdown,
+.menu-dropdown li:focus .submenu-dropdown {
+    display:block !important;
+}
+
+
+@import 'cabecalho';
+
+@import 'corpo';
+
+@import 'menu-lateral';
+
+@import 'rodape';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

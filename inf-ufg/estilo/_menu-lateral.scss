@@ -1,0 +1,88 @@
+/***********************************************************
+ * PAGINA PRINCIPAL: MENU LATERAL
+*************************************************************/
+
+
+#menu-lateral {
+    width:200px;
+    float:left;
+    font-size:90%;
+}
+
+#menu-lateral .menu-lateral-titulo {
+    background-color: $cor-azul-clara;
+    display:block;
+    border-top: 3px solid $cor-azul-media;
+    color: $cor-azul-escura;
+    font-weight: bold;
+}
+
+#menu-lateral .menu-lateral-titulo a {
+    display:block;
+    /*padding: 5px 5px 0 15px;
+    padding-bottom:1.2em;*/
+    padding:0.8em;
+    padding-bottom:1.5em;
+}
+
+#menu-lateral .menu-lateral-titulo a:hover {
+    color:#fff;
+}
+#menu-lateral .menu-lateral-titulo:hover {
+    border-color: $cor-azul-clara;   
+}
+
+
+#menu-lateral .menu-lateral-sub {
+    margin: 0 0 1.5em 0;
+    list-style: none;
+    display: block;
+}
+
+
+#menu-lateral .menu-lateral-subitem {
+    /*color: $cor-fonte-media;
+    border-bottom: solid 1px #dfdfdf;*/
+    background-color: $cor-azul-escura;
+    color:#fff;
+}
+
+#menu-lateral .menu-lateral-subitem a {
+    display:block;
+    padding: 0.6em 0.6em 0.6em 2em
+}
+
+#menu-lateral .menu-lateral-subitem:hover,
+#menu-lateral .menu-lateral-subitem:focus {
+  /*  background-color: #dfdfdf;*/
+}
+
+#menu-lateral-mobile {
+    display:none;
+}
+
+@media (max-width : 420px) {
+    #menu-lateral {
+        width:100%;
+        float:left;
+}
+    #menu-lateral-mobile {
+        display:block;
+        width:100%;
+        background-color: $cor-azul-clara;
+        color: $cor-azul-escura;
+        font-weight: bold;
+        text-align:center;
+        padding-top:1em;
+        padding-bottom:1em;
+    }
+    
+    
+    #menu-lateral ul {
+        display:none;
+    }
+    
+    #menu-lateral:hover ul {
+        display:block;
+    }
+}
