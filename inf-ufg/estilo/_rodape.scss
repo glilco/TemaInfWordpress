@@ -69,4 +69,24 @@
         max-width: 50%;
         margin-right:15%;
     }
+    
+    @include tela-celular {
+        text-align:center;
+        
+        .rodape-caixa {
+            text-align:left;
+        }
+        
+        .rodape-imagem {
+            text-align:center;
+        }
+        
+        .rodape-caixa-direita {
+            margin-right: 5px;
+        }
+        
+        .rodape-caixa-esquerda {
+            margin-left:5px;
+        }
+    }
 }

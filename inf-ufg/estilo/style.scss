@@ -7,15 +7,35 @@ Tags: INF, UFG
 */
 
 $cor-azul-escura:#2576b2;
-$cor-azul-media:#689ECA;
+$cor-azul-media:#689eca;
 $cor-azul-clara:#ddedf1;
 $cor-azul-menu-superior:#4478a4;
+
+$cor-submenu-superior:#ccc;
+$cor-submenu-superior-hover:#999;
 
 $cor-fonte-azul-hover:#005580;
 
 $cor-fonte-escura:#333;
 $cor-fonte-media:#666;
 $cor-fonte-clara:#999;
+
+
+$res-tela-celular: 420px;
+$res-tela-tablet: 1000px;
+
+
+@mixin tela-celular {
+	@media (max-width : $res-tela-celular) {
+		@content;
+	}
+}
+
+@mixin tela-tablet {
+	@media (max-width : $res-tela-tablet) {
+		@content;
+	}
+}
 
 
 @import 'reset';
@@ -71,11 +91,6 @@ body {
 
 :focus {
     outline:1px solid red;
-}
-
-.menu-bloco li:hover {
-    background-color: $cor-azul-media !important;
-    color:$cor-fonte-azul-hover !important;
 }
 
 .link-limpo-container a {

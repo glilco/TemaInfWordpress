@@ -35,13 +35,14 @@
         font-size: x-small;
         margin: 0.6em 3% 3px 1em;
     }
-}
-
-@media (max-width : 420px) {
-    #cabecalho-pagina #grupo-links-conteudo {
+    
+    
+    @include tela-celular {
         display:none;
     }
 }
+
+
 
 #cabecalho-pagina #id-inf {
     width:200px;
@@ -68,6 +69,15 @@
             font-size:60%;
         }
     }
+    
+    @include tela-celular {
+        width:50%;
+        height:100px;
+        div {
+            /*margin:10% 0 10% 0;*/
+            @include centraliza-vertical();
+        }
+    }
 }
 
 
@@ -80,19 +90,8 @@
         width: auto;
         height: 100%;
     }
-}
-
-@media (max-width : 420px) {
-    header#cabecalho-pagina #id-inf {
-        width:50%;
-        height:100px;
-        div {
-            /*margin:10% 0 10% 0;*/
-            @include centraliza-vertical();
-        }
-    }
     
-    header#cabecalho-pagina #id-ufg {
+    @include tela-celular {
         width:50%;
         float:left;
         clear:both;
@@ -107,6 +106,8 @@
     }
 }
 
+
+
 /***********************************************************
  * CABEÇALHO: CENTRO
 *************************************************************/
@@ -118,16 +119,16 @@
     float:right;
     margin-right:3%;
     clear:right;
-}
-
-
-@media (max-width : 420px) {
-    #cabecalho-pagina #grupo-centro {
+    
+    @include tela-celular {
         width:100%;
         float:left;
         margin:0;
     }
 }
+
+
+
 
 /***********************************************************
  * CABEÇALHO: ACESSIBILIDADE
@@ -197,16 +198,23 @@
                 color:#020167;
             }
         }
+        
+        
+        
+        @include tela-celular {
+            //float:left;
+            //margin: 0 0 2em 3em;
+            float:none;
+            position:absolute;
+            top:0;
+            right:0;
+            margin:3em 1.5em 0 0;
+        }
     }
 }
 
 
-@media (max-width : 420px) {
-    #cabecalho-pagina #grupo-acessibilidade #acessibilidade-fonte-constraste #acessibilidade {
-        float:left;
-        margin: 0 0 2em 3em;
-    }
-}
+
 
 
 /***********************************************************
@@ -228,11 +236,10 @@
             height:auto;
         }
     }
-}
-
-@media (max-width : 420px) {
-    #cabecalho-pagina #grupo-midias-sociais {
-        margin-top:3em;
+    
+    @include tela-celular {
+        //margin-top:3em;
+        margin:1em 0 0.5em 0;
         clear:both;
         width:100%;
         .icone-midia {
@@ -240,9 +247,10 @@
             margin: 0 0 0 2%;
             width:10%;
         }
-    
+        
     }
 }
+
 
 /***********************************************************
  * CABEÇALHO: CARROSSEL
@@ -259,6 +267,10 @@
         width:100%;
         height:auto;
     }
+    
+    @include tela-celular {
+        margin-bottom: -3px;
+    }
 }
 
 /***********************************************************
@@ -267,6 +279,11 @@
 .elemento-barra-superior {
     border-right: 1px solid #fff;
     height:100%;
+    
+    @include tela-celular {
+        border:none;
+        width:50%;
+    }
 }
 
 #barra-superior {
@@ -274,12 +291,22 @@
     height: 37px;
     background-color: $cor-azul-menu-superior;
     color:#fff;
+    
+    @include tela-celular {
+        display:flex;
+        height:auto;
+    }
 }
 
 #grupo-barra-superior {
     display: block;
     height: 100%;
     border-left: 1px solid #fff;
+    
+    @include tela-celular {
+        height:auto;
+        border: none;
+    }
 }
 
 
@@ -336,6 +363,12 @@
             @extend %busca-inputs;
         }
     }
+    
+    @include tela-celular {
+        width: 100%;
+        border:none;
+        padding: 5px 0;
+    }
 }
 
 
@@ -351,13 +384,13 @@
         .submenu-barra-superior {
             display:none;
             li {
-                background-color: #ccc;
+                background-color: $cor-submenu-superior;
                 display: block;
                 width: 100%;
                 color: $cor-fonte-escura;
                 
                 a:hover {
-                    background-color:#999;
+                    background-color:$cor-submenu-superior-hover;
                 }
             }
         }
@@ -381,6 +414,18 @@
             &:hover {
                 background-image: url("./imagens/drop-down-white2.png");
             }
+        }
+    }
+    
+    @include tela-celular {
+        float:left;
+        border:none;
+        height:auto;
+        width:100%;
+        border-left:none;
+        
+        &> ul > li {
+            padding-right: 0;
         }
     }
 }

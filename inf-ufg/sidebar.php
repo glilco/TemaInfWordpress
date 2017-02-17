@@ -1,7 +1,7 @@
 <nav id="menu-lateral" class="clear link-limpo-container">
     <div id="menu-lateral-mobile">MENU</div>
     <span class="leitor-tela">Menu lateral</span>
-    <ul class="menu-bloco">
+    <ul class="">
         <li><a href="#">O Instituto de Informática</a></li>
         <ul class="menu-lateral-sub">
             <li><a href="#">Apresentação</a></li>

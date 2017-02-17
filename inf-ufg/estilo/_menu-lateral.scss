@@ -11,14 +11,15 @@
     margin-top:1.5em;
     
     >ul > li {
-        background-color: $cor-azul-clara;
+        //background-color: $cor-azul-escura;
+        background-color: $cor-azul-menu-superior;
         display:block;
         border-top: 3px solid $cor-azul-media;
-        color: $cor-azul-escura;
+        color: white;
         font-weight: bold;
         
         &:hover {
-            border-color: $cor-azul-clara;
+            border-color: $cor-azul-escura;
         }
         
         a {
@@ -29,10 +30,27 @@
             padding-bottom:1.5em;
             
             &:hover {
-                color:#fff;
+                //background-color: $cor-azul-media;
+                //color: $cor-fonte-azul-hover;
+                background-color: $cor-azul-escura;
+                color:$cor-azul-clara;
             }
         }
         
+    }
+    
+    @include tela-celular {
+        margin-top:0;
+        width:100%;
+        float:left;
+        
+        ul {
+            display:none;
+        }
+        
+        &:hover ul {
+            display:block;
+        }
     }
 }
 
@@ -42,11 +60,19 @@
     display: block;
     
     li {
-        background-color: $cor-azul-escura;
-        color:#fff;
-         a {
+        //background-color: $cor-azul-clara;
+        //color: $cor-azul-escura;
+        background-color: $cor-submenu-superior;
+        color: $cor-fonte-escura;
+        a {
             display:block;
-            padding: 0.6em 0.6em 0.6em 2em
+            padding: 0.6em 0.6em 0.6em 2em;
+            
+            &:hover {
+                //background-color: $cor-azul-media;
+                //color: $cor-fonte-azul-hover;
+                background-color: $cor-submenu-superior-hover;
+            }
         }
     }
 }
@@ -54,29 +80,17 @@
 
 #menu-lateral-mobile {
     display:none;
-}
-
-@media (max-width : 420px) {
-    #menu-lateral {
-        width:100%;
-        float:left;
-        
-         ul {
-            display:none;
-        }
-        
-        &:hover ul {
-            display:block;
-        }
-    }
-    #menu-lateral-mobile {
+    
+    @include tela-celular {
         display:block;
         width:100%;
-        background-color: $cor-azul-clara;
-        color: $cor-azul-escura;
+        background-color: $cor-azul-menu-superior;
+        color: white;
         font-weight: bold;
         text-align:center;
         padding-top:1em;
         padding-bottom:1em;
     }
 }
+
+

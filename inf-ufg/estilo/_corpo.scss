@@ -17,6 +17,11 @@
     float:left;
     display:block;
     margin:1em 0;
+    
+    @include tela-celular {
+        max-width: $res-tela-celular;
+        margin:0;
+    }
 }
 
 .bloco-conteudo {
@@ -31,6 +36,15 @@
     border:  1px solid #D3D3D3;
     @include border_radius(5px);
     
+    @include tela-celular {
+        max-width: $res-tela-celular;
+        margin: 0.5em 0;
+        padding:0;
+        border:none;
+        border-top: 1px solid #D3D3D3;
+        
+        @include border_radius(0px);
+    }
 }
 
 .cabecalho-bloco {
@@ -59,7 +73,6 @@
 %conteudo-caixa {
     list-style-type: none;
     
-    width: 300px;
     height: 158px;
     float: left;
     padding: 0px 0px 0px 0px;
@@ -108,6 +121,9 @@
         display:none;
     }
     
+    @include tela-celular {
+        width:auto;
+    }
 }
 
 
@@ -198,5 +214,13 @@
     &:hover {
         //background-color:$cor-azul-clara;
         text-decoration:underline;
+    }
+    
+    @include tela-celular {
+        padding-right:15px;
+        bottom:auto;
+        left:auto;
+        top:4px;
+        right:5px;
     }
 }
