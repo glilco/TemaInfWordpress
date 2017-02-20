@@ -4,7 +4,7 @@
 
 
 #menu-lateral {
-    width:200px;
+    width:20%;
     float:left;
     font-size:90%;
     
@@ -39,6 +39,20 @@
         
     }
     
+    @include tela-media {
+        margin-top:0;
+        width:100%;
+        float:left;
+        
+        ul {
+            display:none;
+        }
+        
+        &:hover ul {
+            display:block;
+        }
+    }
+    
     @include tela-celular {
         margin-top:0;
         width:100%;
@@ -52,6 +66,9 @@
             display:block;
         }
     }
+    
+    
+    
 }
 
 #menu-lateral .menu-lateral-sub {
@@ -81,6 +98,17 @@
 #menu-lateral-mobile {
     display:none;
     
+    @include tela-media {
+        display:block;
+        width:100%;
+        background-color: $cor-azul-menu-superior;
+        color: white;
+        font-weight: bold;
+        text-align:center;
+        padding-top:1em;
+        padding-bottom:1em;
+    }
+    
     @include tela-celular {
         display:block;
         width:100%;
@@ -91,6 +119,8 @@
         padding-top:1em;
         padding-bottom:1em;
     }
+    
+    
 }
 
 

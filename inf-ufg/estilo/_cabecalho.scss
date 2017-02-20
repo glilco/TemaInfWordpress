@@ -45,12 +45,13 @@
 
 
 #cabecalho-pagina #id-inf {
-    width:200px;
+    max-width:200px;
     height:100px;
     display:block;
     background: $cor-azul-clara;
     text-align:center;
     float:left;
+    width:20%;
     
     div {
         display:block;
@@ -82,10 +83,12 @@
 
 
 #cabecalho-pagina #id-ufg {
-    width: 200px;
+    max-width: 200px;
     height: 100px;
     display: block;
     float: left;
+    width:20%;
+    
     img {
         width: auto;
         height: 100%;
@@ -114,11 +117,16 @@
 
 
 #cabecalho-pagina #grupo-centro {
-    width:400px;
+    max-width:400px;
     display:block;
     float:right;
     margin-right:3%;
     clear:right;
+    width:60%;
+    
+    @include tela-tablet {
+        margin-right:0;
+    }
     
     @include tela-celular {
         width:100%;

@@ -162,12 +162,13 @@ body {
       display: none; } }
 
 #cabecalho-pagina #id-inf {
-  width: 200px;
+  max-width: 200px;
   height: 100px;
   display: block;
   background: #ddedf1;
   text-align: center;
-  float: left; }
+  float: left;
+  width: 20%; }
   #cabecalho-pagina #id-inf div {
     display: block;
     line-height: 160%;
@@ -199,10 +200,11 @@ body {
           width: .1px; } }
 
 #cabecalho-pagina #id-ufg {
-  width: 200px;
+  max-width: 200px;
   height: 100px;
   display: block;
-  float: left; }
+  float: left;
+  width: 20%; }
   #cabecalho-pagina #id-ufg img {
     width: auto;
     height: 100%; }
@@ -228,11 +230,15 @@ body {
  * CABEÇALHO: CENTRO
 *************************************************************/
 #cabecalho-pagina #grupo-centro {
-  width: 400px;
+  max-width: 400px;
   display: block;
   float: right;
   margin-right: 3%;
-  clear: right; }
+  clear: right;
+  width: 60%; }
+  @media (max-width: 1000px) {
+    #cabecalho-pagina #grupo-centro {
+      margin-right: 0; } }
   @media (max-width: 420px) {
     #cabecalho-pagina #grupo-centro {
       width: 100%;
@@ -501,7 +507,12 @@ body {
   max-width: 800px;
   float: left;
   display: block;
-  margin: 1em 0; }
+  margin: 1em 0;
+  width: 80%; }
+  @media (max-width: 700px) {
+    #area-conteudo {
+      margin: auto;
+      float: none; } }
   @media (max-width: 420px) {
     #area-conteudo {
       max-width: 420px;
@@ -586,6 +597,10 @@ body {
     display: none; }
   .conteudo-caixa-imagem .leia-mais, .conteudo-caixa-texto .leia-mais {
     display: none; }
+  @media (max-width: 1000px) {
+    .conteudo-caixa-imagem, .conteudo-caixa-texto {
+      width: auto;
+      height: 200px; } }
   @media (max-width: 420px) {
     .conteudo-caixa-imagem, .conteudo-caixa-texto {
       width: auto; } }
@@ -601,6 +616,12 @@ body {
     margin: 0;
     max-width: 100%;
     height: auto; }
+  @media (max-width: 1000px) {
+    .conteudo-caixa-imagem .link-imagem-noticia {
+      height: auto; }
+      .conteudo-caixa-imagem .link-imagem-noticia img {
+        width: auto;
+        max-width: 100%; } }
 
 .conteudo-caixa-texto summary {
   margin: 0 !important;
@@ -662,7 +683,7 @@ body {
  * PAGINA PRINCIPAL: MENU LATERAL
 *************************************************************/
 #menu-lateral {
-  width: 200px;
+  width: 20%;
   float: left;
   font-size: 90%;
   margin-top: 1.5em; }
@@ -683,6 +704,15 @@ body {
       #menu-lateral > ul > li a:hover {
         background-color: #2576b2;
         color: #ddedf1; }
+  @media (max-width: 700px) {
+    #menu-lateral {
+      margin-top: 0;
+      width: 100%;
+      float: left; }
+      #menu-lateral ul {
+        display: none; }
+      #menu-lateral:hover ul {
+        display: block; } }
   @media (max-width: 420px) {
     #menu-lateral {
       margin-top: 0;
@@ -708,6 +738,16 @@ body {
 
 #menu-lateral-mobile {
   display: none; }
+  @media (max-width: 700px) {
+    #menu-lateral-mobile {
+      display: block;
+      width: 100%;
+      background-color: #4478a4;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 1em;
+      padding-bottom: 1em; } }
   @media (max-width: 420px) {
     #menu-lateral-mobile {
       display: block;

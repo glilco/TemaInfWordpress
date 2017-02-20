@@ -22,6 +22,7 @@ $cor-fonte-clara:#999;
 
 
 $res-tela-celular: 420px;
+$res-tela-media: 700px;
 $res-tela-tablet: 1000px;
 
 
@@ -33,6 +34,12 @@ $res-tela-tablet: 1000px;
 
 @mixin tela-tablet {
 	@media (max-width : $res-tela-tablet) {
+		@content;
+	}
+}
+
+@mixin tela-media {
+	@media (max-width : $res-tela-media) {
 		@content;
 	}
 }
